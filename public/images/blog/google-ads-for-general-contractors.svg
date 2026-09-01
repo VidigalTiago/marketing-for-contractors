@@ -1,0 +1,61 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid5" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#EAF1FC" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="accent5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1565D8"/>
+      <stop offset="100%" stop-color="#0F4DA8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <rect width="1200" height="630" fill="url(#grid5)"/>
+  <path d="M1200,0 L1200,260 L940,0 Z" fill="url(#accent5)" opacity="0.08"/>
+
+  <text x="80" y="86" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#1565D8">GOOGLE ADS</text>
+  <rect x="80" y="100" width="48" height="3" fill="#1565D8"/>
+
+  <text x="80" y="252" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#0A0A0A">Google Ads for General</text>
+  <text x="80" y="300" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#0A0A0A">Contractors: How to</text>
+  <text x="80" y="348" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#0A0A0A">Generate More Qualified</text>
+  <text x="80" y="396" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#0A0A0A">Leads</text>
+
+  <text x="80" y="590" font-family="Inter, Arial, sans-serif" font-size="15" fill="#667085">mktforcontractors.com</text>
+  <g transform="translate(1030,578)">
+    <path d="M0 14 L10 0 L20 14 L20 22 L0 22 Z" fill="#1565D8"/>
+    <text x="28" y="17" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#0A0A0A">MKT for Contractors</text>
+  </g>
+
+  <rect x="700" y="130" width="420" height="400" rx="24" fill="#F7F9FC" stroke="#D0D5DD" stroke-width="1.5"/>
+
+  <!-- top: search/magnifier -->
+  <g transform="translate(870,160)">
+    <circle cx="0" cy="0" r="24" fill="none" stroke="#1565D8" stroke-width="6"/>
+    <line x1="17" y1="17" x2="34" y2="34" stroke="#1565D8" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <path d="M870 200 L870 240" stroke="#1565D8" stroke-width="4" stroke-dasharray="1 8" stroke-linecap="round"/>
+
+  <!-- middle: ad card -->
+  <g transform="translate(770,250)">
+    <rect x="0" y="0" width="200" height="70" rx="10" fill="#FFFFFF" stroke="#1565D8" stroke-width="2"/>
+    <rect x="14" y="12" width="26" height="14" rx="3" fill="#1565D8"/>
+    <text x="27" y="23" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle">Ad</text>
+    <text x="46" y="24" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#0A0A0A">General Contractor - Free Quote</text>
+    <rect x="14" y="34" width="172" height="6" rx="2" fill="#D0D5DD"/>
+    <rect x="14" y="46" width="120" height="6" rx="2" fill="#D0D5DD"/>
+    <rect x="14" y="58" width="90" height="9" rx="4" fill="#2AA198"/>
+  </g>
+  <path d="M870 320 L870 360" stroke="#1565D8" stroke-width="4" stroke-dasharray="1 8" stroke-linecap="round"/>
+  <path d="M862 352 L870 362 L878 352" fill="none" stroke="#1565D8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- bottom: house blueprint w/ checkmark = qualified lead -->
+  <g transform="translate(800,375)">
+    <path d="M0 60 L0 20 L70 -20 L140 20 L140 60 Z" fill="none" stroke="#0A0A0A" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="0" y="60" width="140" height="60" fill="none" stroke="#0A0A0A" stroke-width="4"/>
+    <rect x="58" y="80" width="24" height="40" fill="none" stroke="#0A0A0A" stroke-width="3"/>
+    <rect x="14" y="76" width="24" height="24" fill="none" stroke="#0A0A0A" stroke-width="3"/>
+    <rect x="102" y="76" width="24" height="24" fill="none" stroke="#0A0A0A" stroke-width="3"/>
+    <circle cx="140" cy="20" r="26" fill="#2AA198" stroke="#FFFFFF" stroke-width="4"/>
+    <path d="M128 20 l8 8 l16 -18" stroke="#FFFFFF" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,71 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#EAF1FC" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1565D8"/>
+      <stop offset="100%" stop-color="#0F4DA8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <rect width="1200" height="630" fill="url(#grid2)"/>
+  <path d="M1200,0 L1200,260 L940,0 Z" fill="url(#accent2)" opacity="0.08"/>
+
+  <text x="80" y="86" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#1565D8">MARKETING ANALYTICS</text>
+  <rect x="80" y="100" width="48" height="3" fill="#1565D8"/>
+
+  <text x="80" y="280" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800" fill="#0A0A0A">What Is a Good Cost</text>
+  <text x="80" y="332" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800" fill="#0A0A0A">per Lead for General</text>
+  <text x="80" y="384" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800" fill="#0A0A0A">Contractors?</text>
+
+  <text x="80" y="590" font-family="Inter, Arial, sans-serif" font-size="15" fill="#667085">mktforcontractors.com</text>
+  <g transform="translate(1030,578)">
+    <path d="M0 14 L10 0 L20 14 L20 22 L0 22 Z" fill="#1565D8"/>
+    <text x="28" y="17" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#0A0A0A">MKT for Contractors</text>
+  </g>
+
+  <rect x="700" y="150" width="420" height="360" rx="24" fill="#F7F9FC" stroke="#D0D5DD" stroke-width="1.5"/>
+
+  <!-- calculator -->
+  <g transform="translate(760,190)">
+    <rect x="0" y="0" width="170" height="230" rx="14" fill="#0F4DA8"/>
+    <rect x="16" y="18" width="138" height="50" rx="8" fill="#EAF2FE"/>
+    <text x="140" y="52" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800" fill="#0A0A0A" text-anchor="end">$182</text>
+    <!-- keypad grid -->
+    <g fill="#8FB7EE">
+      <rect x="16" y="82" width="30" height="24" rx="5"/>
+      <rect x="55" y="82" width="30" height="24" rx="5"/>
+      <rect x="94" y="82" width="30" height="24" rx="5"/>
+      <rect x="133" y="82" width="21" height="24" rx="5" fill="#2AA198"/>
+
+      <rect x="16" y="114" width="30" height="24" rx="5"/>
+      <rect x="55" y="114" width="30" height="24" rx="5"/>
+      <rect x="94" y="114" width="30" height="24" rx="5"/>
+      <rect x="133" y="114" width="21" height="24" rx="5" fill="#2AA198"/>
+
+      <rect x="16" y="146" width="30" height="24" rx="5"/>
+      <rect x="55" y="146" width="30" height="24" rx="5"/>
+      <rect x="94" y="146" width="30" height="24" rx="5"/>
+      <rect x="133" y="146" width="21" height="56" rx="5" fill="#FFFFFF"/>
+
+      <rect x="16" y="178" width="69" height="24" rx="5"/>
+    </g>
+  </g>
+
+  <!-- funnel: many clicks -> few qualified leads -->
+  <g transform="translate(960,200)">
+    <path d="M0 0 L150 0 L100 80 L100 170 L50 170 L50 80 Z" fill="#EAF2FE" stroke="#1565D8" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="75" cy="185" r="16" fill="#1565D8"/>
+    <path d="M68 185 l5 6 l10 -12" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="75" y="225" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#0A0A0A" text-anchor="middle">QUALIFIED</text>
+    <text x="75" y="242" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#0A0A0A" text-anchor="middle">LEAD</text>
+  </g>
+
+  <!-- dollar coin accent -->
+  <g transform="translate(970,410)">
+    <circle cx="0" cy="0" r="30" fill="#FFFFFF" stroke="#1565D8" stroke-width="3.5"/>
+    <text x="0" y="10" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" fill="#1565D8" text-anchor="middle">$</text>
+  </g>
+  <path d="M940 400 L900 380" stroke="#0A0A0A" stroke-width="2.5" stroke-dasharray="1 8" stroke-linecap="round"/>
+</svg>
