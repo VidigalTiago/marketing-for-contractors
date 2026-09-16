@@ -7,7 +7,7 @@ const clients = [
   // Ocultado temporariamente
   // { name: 'AIM Construction', logo: '/clients/aim-constr.png' },
   { name: 'Winterhill Builders', logo: '/clients/winterhill-builders.png' },
-  { name: 'Home Identity', logo: '/clients/home-identity.png' },
+  // { name: 'Home Identity', logo: '/clients/home-identity.png' },
   { name: 'Top GM Construction', logo: '/clients/top-gm-construction.png' },
   { name: 'Forma Construction', logo: '/logos/forma-construction.webp' },
 ]
