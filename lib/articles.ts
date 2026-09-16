@@ -406,6 +406,7 @@ export const articles: Article[] = [
       'google-ads-vs-local-services-ads',
       'best-google-ads-keywords-for-general-contractors',
       'follow-up-contractor-leads',
+      'contractor-marketing-budget',
     ],
     translations: {
       'en-US': {
@@ -1023,7 +1024,7 @@ export const articles: Article[] = [
     id: 'contractor-marketing-roi',
     status: 'published',
     featuredImage: '/images/blog/how-to-calculate-contractor-marketing-roi.svg',
-    relatedArticleIds: ['general-contractor-marketing-guide', 'google-ads-for-general-contractors', 'good-cost-per-lead-for-general-contractors', 'follow-up-contractor-leads'],
+    relatedArticleIds: ['general-contractor-marketing-guide', 'google-ads-for-general-contractors', 'good-cost-per-lead-for-general-contractors', 'follow-up-contractor-leads', 'contractor-marketing-budget'],
     translations: {
       'en-US': {
         locale: 'en-US', slug: 'contractor-marketing-roi', path: '/blog/contractor-marketing-roi',
@@ -1038,6 +1039,138 @@ export const articles: Article[] = [
         metaDescription: 'Aprenda a calcular o ROI de marketing para contractors usando investimento, receita assinada e lucro bruto, com fórmula, checklist e calculadora prática.',
         excerpt: 'Framework prático para medir ROI de marketing de contractors, da mídia ao lucro bruto.', category: 'Métricas de Marketing', primaryKeyword: 'ROI de marketing para contractors', secondaryKeywords: ['como calcular ROI de marketing', 'retorno de marketing para contractors', 'ROAS para contractors'], featuredImageAlt: 'Medição de ROI de marketing para contractors', publishedDate: '2026-08-18', updatedDate: '2026-08-18', readingTime: 14, canonicalUrl: `${SITE_URL}/br/blog/como-calcular-o-roi-de-marketing-para-contractors`,
         faq: [{ question: 'Qual é um bom ROI de marketing para contractors?', answer: 'Não existe um benchmark universal. A meta depende da margem bruta, do ciclo de vendas e da qualidade da atribuição.' }, { question: 'Contractors devem medir ROI usando receita ou lucro?', answer: 'ROI baseado em lucro bruto costuma ser mais seguro para decisões porque receita não considera custos de execução.' }],
+      },
+    },
+  },
+  {
+    id: 'contractor-marketing-budget',
+    status: 'published',
+    featuredImage: '/images/blog/contractor-marketing-budget.svg',
+    relatedArticleIds: [
+      'general-contractor-marketing-guide',
+      'good-cost-per-lead-for-general-contractors',
+      'contractor-marketing-roi',
+      'google-ads-for-general-contractors',
+    ],
+    translations: {
+      'en-US': {
+        locale: 'en-US',
+        slug: 'how-much-should-general-contractors-spend-on-marketing',
+        path: '/blog/how-much-should-general-contractors-spend-on-marketing',
+        title: 'How Much Should General Contractors Spend on Marketing?',
+        seoTitle: 'How Much Should General Contractors Spend on Marketing?',
+        metaDescription: 'Learn how to set a marketing budget for a construction company using the percentage-of-revenue method, the goal-based method, and your target customer acquisition cost.',
+        excerpt: 'A practical framework for setting a contractor marketing budget, comparing the percentage-of-revenue method with a goal-based approach built on customer acquisition cost.',
+        category: 'Marketing Analytics',
+        primaryKeyword: 'how much should general contractors spend on marketing',
+        secondaryKeywords: [
+          'contractor marketing budget',
+          'construction company marketing budget',
+          'general contractor advertising budget',
+          'marketing budget for contractors',
+          'how much to spend on Google Ads for contractors',
+          'contractor marketing spend',
+          'percentage of revenue marketing budget',
+          'contractor customer acquisition cost',
+        ],
+        featuredImageAlt: 'Marketing budget allocation chart for a general contractor',
+        publishedDate: '2026-09-16',
+        updatedDate: '2026-09-16',
+        readingTime: 15,
+        canonicalUrl: `${SITE_URL}/blog/how-much-should-general-contractors-spend-on-marketing`,
+        faq: [
+          {
+            question: 'How much should a general contractor spend on marketing?',
+            answer: 'There is no universal number. A reasonable marketing budget depends on average project value, gross margin, sales cycle, current lead-to-sale rate, and how many additional signed projects the business wants per month. A goal-based calculation, using target customer acquisition cost multiplied by desired signed projects, generally gives a more accurate number than a fixed percentage of revenue.',
+          },
+          {
+            question: 'What percentage of revenue should contractors spend on marketing?',
+            answer: 'General small-business guidance often cites a range of roughly 2% to 10% of revenue, with newer or faster-growing businesses closer to the higher end. This range is not specific to construction and does not account for lead economics, so it works better as a sanity check on cash flow than as the primary way to size a contractor marketing budget.',
+          },
+          {
+            question: 'Should contractors use a fixed percentage or a goal-based budget?',
+            answer: 'Both have a role. A goal-based budget, built from target customer acquisition cost and the number of signed projects wanted, sizes spend to actual growth goals and lead economics. A percentage-of-revenue figure is a useful ceiling check to confirm the goal-based number does not outpace what the business can sustain in cash flow. Relying on only one method can either underfund growth or overcommit cash.',
+          },
+          {
+            question: 'Does project type change how much a contractor should spend?',
+            answer: 'Yes. Businesses focused on small repairs typically have shorter sales cycles and lower average project values than businesses focused on additions, ADUs, or custom homes. Higher-value, longer-cycle projects can often support a higher acquisition cost per signed project, but only when margins, close rate, and fulfillment capacity support it.',
+          },
+          {
+            question: 'What counts as marketing spend versus a fixed marketing cost?',
+            answer: 'Variable ad spend includes Google Ads, Local Services Ads, and other pay-per-click or pay-per-lead media. Fixed marketing costs include CRM software, call tracking, website hosting and maintenance, creative production, and agency retainers. Both belong in a complete marketing budget, but they behave differently: fixed costs do not scale down automatically when lead volume drops.',
+          },
+          {
+            question: 'When should a contractor increase marketing spend?',
+            answer: 'Signals that support increasing spend include a customer acquisition cost consistently below target, available project capacity to take on more work, and a close rate that has not started declining as lead volume grows. Increasing spend without available capacity to deliver the additional projects can create fulfillment and quality problems instead of growth.',
+          },
+          {
+            question: 'When should a contractor reduce or pause marketing spend?',
+            answer: 'Consider reducing or reallocating spend when customer acquisition cost is sustained above target, when the business is already at full project capacity, when lead quality has declined without a clear fix, or when cash flow cannot support the current pace of investment. Pausing spend has a lag effect, since the pipeline built from prior spend typically continues to convert for some time after a cut.',
+          },
+          {
+            question: 'How should contractors allocate a marketing budget across channels?',
+            answer: 'A common approach is to concentrate budget in one or two high-intent channels, such as Google Search Ads or Local Services Ads, before spreading spend across many channels. Fixed costs such as CRM and website maintenance should be planned for separately from variable ad spend, and budget should be reallocated toward whichever channel is producing the lowest cost per qualified lead and signed project, not simply the lowest cost per click.',
+          },
+        ],
+      },
+      'pt-BR': {
+        locale: 'pt-BR',
+        slug: 'quanto-general-contractors-devem-investir-em-marketing',
+        path: '/br/blog/quanto-general-contractors-devem-investir-em-marketing',
+        title: 'Quanto General Contractors Devem Investir em Marketing?',
+        seoTitle: 'Quanto General Contractors Devem Investir em Marketing?',
+        metaDescription: 'Aprenda a definir o orçamento de marketing de uma empresa de construção usando o método de percentual da receita, o método por meta e o CAC alvo.',
+        excerpt: 'Um framework prático para definir o orçamento de marketing de um general contractor, comparando o método de percentual da receita com uma abordagem por meta baseada no custo de aquisição de cliente.',
+        category: 'Métricas de Marketing',
+        primaryKeyword: 'quanto general contractors devem investir em marketing',
+        secondaryKeywords: [
+          'orçamento de marketing para contractors',
+          'orçamento de marketing para empresa de construção',
+          'quanto investir em Google Ads para contractors',
+          'orçamento de anúncios para general contractors',
+          'investimento em marketing para contractors',
+          'percentual da receita em marketing',
+          'CAC para general contractors',
+        ],
+        featuredImageAlt: 'Gráfico de alocação de orçamento de marketing para um general contractor',
+        publishedDate: '2026-09-16',
+        updatedDate: '2026-09-16',
+        readingTime: 15,
+        canonicalUrl: `${SITE_URL}/br/blog/quanto-general-contractors-devem-investir-em-marketing`,
+        faq: [
+          {
+            question: 'Quanto um general contractor deve investir em marketing?',
+            answer: 'Não existe um número universal. Um orçamento razoável depende do valor médio do projeto, da margem bruta, do ciclo de vendas, da taxa atual de conversão de lead para contrato e de quantos projetos assinados a mais o negócio quer por mês. Um cálculo por meta, usando o CAC alvo multiplicado pelos projetos assinados desejados, costuma dar um número mais preciso do que um percentual fixo da receita.',
+          },
+          {
+            question: 'Qual percentual da receita contractors devem investir em marketing?',
+            answer: 'Orientações gerais para pequenas empresas costumam citar uma faixa de aproximadamente 2% a 10% da receita, com negócios mais novos ou em crescimento mais acelerado próximos da faixa mais alta. Essa faixa não é específica de construção e não considera a economia de lead, então funciona melhor como uma checagem de fluxo de caixa do que como a forma principal de dimensionar o orçamento de marketing de um contractor.',
+          },
+          {
+            question: 'Contractors devem usar percentual fixo ou orçamento por meta?',
+            answer: 'Os dois têm um papel. Um orçamento por meta, construído a partir do CAC alvo e do número de projetos assinados desejados, dimensiona o investimento conforme os objetivos reais de crescimento e a economia de lead. Um percentual da receita é útil como teto de checagem, pra confirmar que o número da meta não ultrapassa o que o negócio consegue sustentar em fluxo de caixa. Depender de apenas um dos métodos pode tanto subfinanciar o crescimento quanto comprometer o caixa.',
+          },
+          {
+            question: 'O tipo de projeto muda quanto um contractor deve investir?',
+            answer: 'Sim. Negócios focados em pequenos reparos geralmente têm ciclos de venda mais curtos e valor médio de projeto menor do que negócios focados em adições, ADUs ou casas personalizadas. Projetos de maior valor e ciclo mais longo geralmente suportam um custo de aquisição por projeto assinado mais alto, mas só quando margem, taxa de fechamento e capacidade de execução sustentam isso.',
+          },
+          {
+            question: 'O que conta como investimento em marketing e o que é custo fixo?',
+            answer: 'O investimento variável em mídia inclui Google Ads, Local Services Ads e outras mídias pagas por clique ou por lead. Os custos fixos de marketing incluem software de CRM, call tracking, hospedagem e manutenção do site, produção de criativo e taxas de agência. Os dois entram num orçamento de marketing completo, mas se comportam de forma diferente: o custo fixo não cai automaticamente quando o volume de leads cai.',
+          },
+          {
+            question: 'Quando um contractor deve aumentar o investimento em marketing?',
+            answer: 'Sinais que sustentam aumentar o investimento incluem um CAC consistentemente abaixo da meta, capacidade disponível para assumir mais projetos e uma taxa de fechamento que não começou a cair conforme o volume de leads cresce. Aumentar o investimento sem capacidade disponível pra entregar os projetos adicionais pode criar problemas de execução e qualidade em vez de crescimento.',
+          },
+          {
+            question: 'Quando um contractor deve reduzir ou pausar o investimento em marketing?',
+            answer: 'Considere reduzir ou realocar o investimento quando o CAC estiver sustentadamente acima da meta, quando o negócio já estiver com a capacidade de projetos lotada, quando a qualidade dos leads tiver caído sem uma causa clara de conserto, ou quando o fluxo de caixa não sustentar o ritmo atual de investimento. Pausar o investimento tem efeito de atraso, já que o pipeline construído pelo investimento anterior costuma continuar convertendo por um tempo depois do corte.',
+          },
+          {
+            question: 'Como contractors devem alocar o orçamento de marketing entre canais?',
+            answer: 'Uma abordagem comum é concentrar o orçamento em um ou dois canais de alta intenção, como Google Search Ads ou Local Services Ads, antes de espalhar o investimento por muitos canais. Custos fixos como CRM e manutenção do site devem ser planejados separadamente do investimento variável em mídia, e o orçamento deve ser realocado pro canal que estiver gerando o menor custo por lead qualificado e projeto assinado, não simplesmente o menor custo por clique.',
+          },
+        ],
       },
     },
   },
