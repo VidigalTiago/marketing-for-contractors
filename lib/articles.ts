@@ -407,6 +407,7 @@ export const articles: Article[] = [
       'best-google-ads-keywords-for-general-contractors',
       'follow-up-contractor-leads',
       'contractor-marketing-budget',
+      'contractor-website-essentials',
     ],
     translations: {
       'en-US': {
@@ -898,6 +899,7 @@ export const articles: Article[] = [
       'cost-per-lead-contractors',
       'follow-up-contractor-leads',
       'contractor-marketing-roi',
+      'contractor-website-essentials',
     ],
     translations: {
       'en-US': {
@@ -1169,6 +1171,160 @@ export const articles: Article[] = [
           {
             question: 'Como contractors devem alocar o orçamento de marketing entre canais?',
             answer: 'Uma abordagem comum é concentrar o orçamento em um ou dois canais de alta intenção, como Google Search Ads ou Local Services Ads, antes de espalhar o investimento por muitos canais. Custos fixos como CRM e manutenção do site devem ser planejados separadamente do investimento variável em mídia, e o orçamento deve ser realocado pro canal que estiver gerando o menor custo por lead qualificado e projeto assinado, não simplesmente o menor custo por clique.',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'contractor-website-essentials',
+    status: 'published',
+    featuredImage: '/images/blog/general-contractor-website-essentials.svg',
+    relatedArticleIds: [
+      'general-contractor-marketing-guide',
+      'good-cost-per-lead-for-general-contractors',
+      'follow-up-contractor-leads',
+      'google-ads-for-general-contractors',
+      'contractor-marketing-budget',
+    ],
+    translations: {
+      'en-US': {
+        locale: 'en-US',
+        slug: 'what-every-general-contractor-website-should-include',
+        path: '/blog/what-every-general-contractor-website-should-include',
+        title: 'What Every General Contractor Website Should Include',
+        seoTitle: 'What Every General Contractor Website Should Include',
+        metaDescription: 'What a general contractor website needs to generate leads: service pages, service area pages, proof, contact paths, forms, site speed, structured data, and tracking.',
+        excerpt: 'A practical checklist of the pages, proof, contact paths, and technical foundations a general contractor website needs to turn visitors into qualified estimate requests.',
+        category: 'Website Optimization',
+        primaryKeyword: 'general contractor website',
+        secondaryKeywords: [
+          'what every general contractor website should include',
+          'contractor website checklist',
+          'construction company website',
+          'contractor website design',
+          'general contractor website pages',
+          'contractor website conversion',
+          'contractor website SEO',
+          'contractor landing page',
+          'contractor website forms',
+          'construction website structured data',
+        ],
+        featuredImageAlt: 'Checklist of the essential pages and elements on a general contractor website',
+        publishedDate: '2026-09-16',
+        updatedDate: '2026-09-16',
+        readingTime: 16,
+        canonicalUrl: `${SITE_URL}/blog/what-every-general-contractor-website-should-include`,
+        faq: [
+          {
+            question: 'What should a general contractor website include?',
+            answer: 'At a minimum: a clear statement of what the company builds and where, one page per core service, coverage of the service area, visible proof of past work and credentials, multiple contact paths including a tappable phone number, a short estimate request form, fast mobile performance, structured data identifying the business, and tracking that connects form submissions and calls back to their source. Anything beyond that list should earn its place by helping a homeowner decide or helping the business measure results.',
+          },
+          {
+            question: 'How many pages does a contractor website need?',
+            answer: 'There is no fixed number. A functional site generally needs a home page, one page per core service, an about page, a project gallery, a contact page, and enough service area coverage to match where the company actually works. A larger site is not automatically better: pages that exist only to add volume tend to compete with each other in search and add maintenance work without adding leads.',
+          },
+          {
+            question: 'Should a contractor have a separate page for every service?',
+            answer: 'Every service the company actively sells and wants to be found for generally deserves its own page. A single page listing ten services cannot rank well for any of them or speak specifically to the homeowner searching for one. Services the company rarely takes on, or takes on only as part of a larger project, can usually be covered inside a related page instead of getting a page of their own.',
+          },
+          {
+            question: 'Should contractors create a page for every city they serve?',
+            answer: 'Only for cities where the company genuinely works and can say something specific: local projects, permitting realities, typical property types, or a real presence. Pages generated by swapping a city name into an otherwise identical template add little value for a reader and risk being treated as thin, duplicated content. A smaller set of substantive location pages is usually more effective than a large set of interchangeable ones.',
+          },
+          {
+            question: 'How many fields should a contractor contact form have?',
+            answer: 'Fewer fields generally produce more submissions, while more fields generally produce better qualified submissions. The practical answer depends on which problem the business actually has. A contractor overwhelmed with unqualified inquiries benefits from adding qualifying fields such as project type, location, and timeline. A contractor with too few inquiries benefits from cutting the form down to name, phone, and a short description, then qualifying on the follow-up call.',
+          },
+          {
+            question: 'Does website speed affect contractor lead generation?',
+            answer: 'Yes, in two ways. Slower pages give visitors more opportunity to leave before the form or phone number is reachable, which lowers conversion rate and raises effective cost per lead on paid traffic. Page experience is also part of how Google evaluates pages. Google publishes Core Web Vitals thresholds for a good experience at the 75th percentile of page loads: 2.5 seconds or less for Largest Contentful Paint, 200 milliseconds or less for Interaction to Next Paint, and 0.1 or less for Cumulative Layout Shift.',
+          },
+          {
+            question: 'Should a contractor website show prices?',
+            answer: 'Showing exact prices is rarely practical for custom construction work, but showing nothing at all leaves homeowners to guess, which produces inquiries from people far outside the company\'s range. A middle path works for most contractors: publish typical project ranges, a starting project minimum, or the factors that move a price up or down. This filters out mismatched inquiries before they reach the sales process without committing to a number the company cannot honor.',
+          },
+          {
+            question: 'What structured data should a contractor website use?',
+            answer: 'Schema.org includes a GeneralContractor type, which sits under LocalBusiness through HomeAndConstructionBusiness, and is the natural fit for identifying the business itself. Beyond that, service pages can use Service markup, FAQ sections can use FAQPage markup, and articles can use BlogPosting markup. Structured data describes what is already on the page. It does not substitute for the content itself, and marking up claims that do not appear on the page can cause problems rather than help.',
+          },
+          {
+            question: 'Do contractors need a blog on their website?',
+            answer: 'A blog is not required, but content that answers the questions homeowners actually ask before hiring can support both search visibility and the sales conversation. The useful test is whether an article would help a real prospect decide. Publishing on a schedule with no clear reader in mind adds maintenance work without adding qualified traffic.',
+          },
+          {
+            question: 'How do you know if a contractor website is working?',
+            answer: 'Measure outcomes, not appearance. Track form submissions and calls by source, the share of inquiries that qualify, how many become booked estimates, and how many become signed projects. A site that produces plenty of inquiries that never qualify has a targeting or qualification problem, not a design problem. Without tracking that connects submissions back to their source, none of those questions can be answered.',
+          },
+        ],
+      },
+      'pt-BR': {
+        locale: 'pt-BR',
+        slug: 'o-que-todo-site-de-general-contractor-deve-ter',
+        path: '/br/blog/o-que-todo-site-de-general-contractor-deve-ter',
+        title: 'O Que Todo Site de General Contractor Deve Ter',
+        seoTitle: 'O Que Todo Site de General Contractor Deve Ter',
+        metaDescription: 'O que o site de um general contractor precisa ter pra gerar leads: páginas de serviço, área de atuação, prova, formulários, velocidade, dados estruturados e rastreamento.',
+        excerpt: 'Um checklist prático das páginas, provas, caminhos de contato e fundações técnicas que o site de um general contractor precisa ter pra transformar visitantes em pedidos de orçamento qualificados.',
+        category: 'Otimização de Sites',
+        primaryKeyword: 'site para general contractor',
+        secondaryKeywords: [
+          'o que todo site de contractor deve ter',
+          'checklist de site para contractors',
+          'site para empresa de construção',
+          'design de site para contractors',
+          'páginas de site para general contractors',
+          'conversão em site de contractor',
+          'SEO para site de contractor',
+          'landing page para contractors',
+          'formulário de site para contractors',
+          'dados estruturados para empresa de construção',
+        ],
+        featuredImageAlt: 'Checklist das páginas e elementos essenciais de um site de general contractor',
+        publishedDate: '2026-09-16',
+        updatedDate: '2026-09-16',
+        readingTime: 16,
+        canonicalUrl: `${SITE_URL}/br/blog/o-que-todo-site-de-general-contractor-deve-ter`,
+        faq: [
+          {
+            question: 'O que o site de um general contractor precisa ter?',
+            answer: 'No mínimo: uma frase clara sobre o que a empresa constrói e onde, uma página por serviço principal, cobertura da área de atuação, prova visível de trabalhos anteriores e credenciais, vários caminhos de contato incluindo um telefone clicável, um formulário curto de pedido de orçamento, boa performance no celular, dados estruturados identificando o negócio e rastreamento que conecte formulários e ligações à sua origem. Qualquer coisa além dessa lista precisa justificar o espaço ajudando o homeowner a decidir ou ajudando o negócio a medir resultado.',
+          },
+          {
+            question: 'Quantas páginas um site de contractor precisa ter?',
+            answer: 'Não existe um número fixo. Um site funcional geralmente precisa de home, uma página por serviço principal, uma página sobre a empresa, uma galeria de projetos, uma página de contato e cobertura suficiente da área onde a empresa realmente trabalha. Site maior não é automaticamente melhor: páginas que existem só pra aumentar o volume tendem a competir entre si na busca e criam manutenção sem gerar lead.',
+          },
+          {
+            question: 'Cada serviço precisa de uma página separada?',
+            answer: 'Todo serviço que a empresa vende ativamente e quer ser encontrada geralmente merece a própria página. Uma única página listando dez serviços não consegue ranquear bem pra nenhum deles nem falar de forma específica com o homeowner que está procurando um. Serviços que a empresa raramente pega, ou pega só como parte de um projeto maior, normalmente podem ser cobertos dentro de uma página relacionada em vez de ganhar uma página própria.',
+          },
+          {
+            question: 'Contractors devem criar uma página pra cada cidade que atendem?',
+            answer: 'Só pra cidades onde a empresa realmente trabalha e tem algo específico a dizer: projetos locais, particularidades de licenciamento, tipos de imóvel comuns ou presença real. Páginas geradas trocando o nome da cidade num template idêntico agregam pouco pra quem lê e correm o risco de serem tratadas como conteúdo raso e duplicado. Um conjunto menor de páginas de localização com substância costuma funcionar melhor do que um conjunto grande de páginas intercambiáveis.',
+          },
+          {
+            question: 'Quantos campos o formulário de contato deve ter?',
+            answer: 'Menos campos geralmente geram mais envios, e mais campos geralmente geram envios mais qualificados. A resposta prática depende de qual problema o negócio realmente tem. Um contractor afogado em contatos desqualificados ganha adicionando campos de qualificação como tipo de projeto, localização e prazo. Um contractor com poucos contatos ganha reduzindo o formulário a nome, telefone e uma descrição curta, e qualificando na ligação de follow-up.',
+          },
+          {
+            question: 'A velocidade do site afeta a geração de leads?',
+            answer: 'Sim, de duas formas. Páginas mais lentas dão mais oportunidade pro visitante sair antes de chegar ao formulário ou ao telefone, o que reduz a taxa de conversão e aumenta o custo por lead efetivo no tráfego pago. A experiência de página também faz parte de como o Google avalia páginas. O Google publica limites de Core Web Vitals para uma boa experiência no percentil 75 dos carregamentos: 2,5 segundos ou menos para Largest Contentful Paint, 200 milissegundos ou menos para Interaction to Next Paint e 0,1 ou menos para Cumulative Layout Shift.',
+          },
+          {
+            question: 'O site de um contractor deve mostrar preços?',
+            answer: 'Mostrar preço exato raramente é viável em obra sob medida, mas não mostrar nada deixa o homeowner adivinhando, o que gera contatos de gente bem fora da faixa da empresa. Um caminho intermediário funciona pra maioria: publicar faixas típicas de projeto, um valor mínimo de projeto ou os fatores que empurram o preço pra cima e pra baixo. Isso filtra contatos incompatíveis antes de chegarem ao processo comercial, sem prender a empresa a um número que ela não consegue honrar.',
+          },
+          {
+            question: 'Quais dados estruturados um site de contractor deve usar?',
+            answer: 'O Schema.org tem um tipo GeneralContractor, que fica abaixo de LocalBusiness através de HomeAndConstructionBusiness, e é o encaixe natural pra identificar o próprio negócio. Além disso, páginas de serviço podem usar a marcação Service, seções de perguntas frequentes podem usar FAQPage e artigos podem usar BlogPosting. Dados estruturados descrevem o que já está na página. Eles não substituem o conteúdo, e marcar afirmações que não aparecem na página pode causar problema em vez de ajudar.',
+          },
+          {
+            question: 'Contractors precisam de blog no site?',
+            answer: 'Blog não é obrigatório, mas conteúdo que responde às perguntas que homeowners realmente fazem antes de contratar sustenta tanto a visibilidade na busca quanto a conversa comercial. O teste útil é se o artigo ajudaria um prospect real a decidir. Publicar numa cadência fixa sem um leitor claro em mente cria manutenção sem gerar tráfego qualificado.',
+          },
+          {
+            question: 'Como saber se o site está funcionando?',
+            answer: 'Meça resultado, não aparência. Acompanhe envios de formulário e ligações por origem, o percentual de contatos que qualifica, quantos viram orçamento agendado e quantos viram projeto assinado. Um site que gera muitos contatos que nunca qualificam tem um problema de segmentação ou de qualificação, não de design. Sem rastreamento conectando os envios à origem, nenhuma dessas perguntas pode ser respondida.',
           },
         ],
       },
