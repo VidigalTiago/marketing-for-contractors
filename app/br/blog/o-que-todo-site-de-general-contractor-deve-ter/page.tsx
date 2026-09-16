@@ -353,6 +353,7 @@ export default function Page() {
                   headline="Seu Site Está Custando Leads Qualificados?"
                   body="Analisamos seu site do jeito que um homeowner e um buscador enxergam, e mostramos o que está travando os pedidos de orçamento e o que corrigir primeiro."
                   buttonLabel="Solicite uma Análise Gratuita do Site"
+                  locale="pt-BR"
                 />
               </section>
 
@@ -537,6 +538,7 @@ export default function Page() {
                 headline="Transforme Seu Site em um Ativo de Geração de Leads"
                 body="Receba uma lista específica e priorizada do que está impedindo seu site de converter homeowners qualificados em orçamentos agendados."
                 buttonLabel="Agende uma Análise Gratuita do Site"
+                locale="pt-BR"
               />
 
               {/* Related Articles */}

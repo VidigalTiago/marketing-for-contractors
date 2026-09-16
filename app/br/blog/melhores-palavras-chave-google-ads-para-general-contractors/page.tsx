@@ -11,7 +11,6 @@ import InlineCTA from '@/components/blog/inline-cta'
 import EndArticleCTA from '@/components/blog/end-article-cta'
 import ReadingProgress from '@/components/blog/reading-progress'
 import CalloutBox from '@/components/blog/callout-box'
-import { CTA_URL_PT } from '@/lib/articles'
 
 const SLUG = 'melhores-palavras-chave-google-ads-para-general-contractors'
 const ARTICLE_ID = 'best-google-ads-keywords-for-general-contractors'

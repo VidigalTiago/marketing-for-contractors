@@ -390,6 +390,7 @@ export default function Page() {
                   headline="Não Sabe Se Seu Orçamento Tem Espaço Pra Crescer?"
                   body="Analisamos seu CAC atual, taxa de fechamento e capacidade pra dizer se aumentar o investimento geraria projetos mais lucrativos ou só mais leads."
                   buttonLabel="Solicite uma Avaliação Gratuita"
+                  locale="pt-BR"
                 />
               </section>
 
@@ -454,6 +455,7 @@ export default function Page() {
                 headline="Construa um Orçamento de Marketing do Tamanho das Suas Metas"
                 body="Tenha um orçamento de marketing claro e baseado em meta, construído a partir da economia real dos seus projetos, não de um percentual genérico da receita."
                 buttonLabel="Agende uma Avaliação Gratuita"
+                locale="pt-BR"
               />
 
               {/* Related Articles */}

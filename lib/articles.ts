@@ -21,9 +21,21 @@ export type SupportedLocale = 'en-US' | 'pt-BR'
 
 export const SITE_URL = 'https://www.mktforcontractors.com'
 
-// CTA destinations per locale
+// CTA destinations per locale.
+//
+// Both locales point to Calendly (decisão do Tiago, 2026-09-16). The PT blog
+// CTA used to open WhatsApp; every blog CTA now books a call instead, in both
+// languages. The two constants stay separate so a PT-specific Calendly event
+// can be swapped in later without touching any call site.
+//
+// This is the ONLY place a blog CTA destination is declared. The navbar
+// wrapper, the blog hub, and every InlineCTA / EndArticleCTA read from here.
+// Do not hardcode a CTA URL anywhere else.
+//
+// ⚠️ Not the same thing as the WhatsApp links on /br and the thank-you pages:
+// those are post-conversion contact, exist in EN too, and are unrelated to this.
 export const CTA_URL = 'https://calendly.com/contact-mktforcontractors/90min'
-export const CTA_URL_PT = 'https://wa.me/5531995745199?text=Ol%C3%A1%21+Tenho+interesse+em+saber+mais+sobre+suas+solu%C3%A7%C3%B5es+de+marketing+para+contractors.'
+export const CTA_URL_PT = 'https://calendly.com/contact-mktforcontractors/90min'
 
 export function getCtaUrl(locale: SupportedLocale): string {
   return locale === 'pt-BR' ? CTA_URL_PT : CTA_URL
