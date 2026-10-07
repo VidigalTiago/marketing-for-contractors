@@ -1342,6 +1342,160 @@ export const articles: Article[] = [
       },
     },
   },
+  {
+    id: 'qualified-contractor-leads',
+    status: 'published',
+    featuredImage: '/images/blog/qualified-contractor-leads.svg',
+    relatedArticleIds: [
+      'general-contractor-marketing-guide',
+      'good-cost-per-lead-for-general-contractors',
+      'follow-up-contractor-leads',
+      'contractor-website-essentials',
+      'best-google-ads-keywords-for-general-contractors',
+    ],
+    translations: {
+      'en-US': {
+        locale: 'en-US',
+        slug: 'how-to-generate-qualified-contractor-leads',
+        path: '/blog/how-to-generate-qualified-contractor-leads',
+        title: 'How to Generate Qualified Contractor Leads',
+        seoTitle: 'How to Generate Qualified Contractor Leads',
+        metaDescription: 'How to generate qualified contractor leads: define qualification, filter before the click, qualify at the form and on the phone, and teach Google Ads which leads were worth having.',
+        excerpt: 'A system for generating contractor leads that actually convert: how to define qualification, filter at every stage from targeting to phone call, and feed the result back so the platforms optimize for quality instead of volume.',
+        category: 'Lead Generation',
+        primaryKeyword: 'qualified contractor leads',
+        secondaryKeywords: [
+          'how to generate qualified contractor leads',
+          'contractor lead generation',
+          'construction lead generation',
+          'lead qualification for contractors',
+          'general contractor leads',
+          'cost per qualified lead',
+          'contractor lead quality',
+          'local services ads pay per lead',
+          'enhanced conversions for leads',
+          'contractor lead qualification questions',
+        ],
+        featuredImageAlt: 'Qualification funnel narrowing all contractor inquiries down to qualified leads',
+        publishedDate: '2026-10-07',
+        updatedDate: '2026-10-07',
+        readingTime: 15,
+        canonicalUrl: `${SITE_URL}/blog/how-to-generate-qualified-contractor-leads`,
+        faq: [
+          {
+            question: 'What is a qualified contractor lead?',
+            answer: 'A qualified lead is an inquiry that passes every filter the business actually cares about: the work is something the company does and wants more of, the property sits inside the service area, the budget is within the range the company works in, the timeline is real rather than exploratory, and the person making contact can decide to hire. An inquiry missing any one of those is still a lead in a report, but it cannot become a project, which is why raw lead counts are a poor measure of a marketing program.',
+          },
+          {
+            question: 'How do you generate more qualified contractor leads?',
+            answer: 'Qualification happens at five points, not one. Targeting decides who ever sees the ad, ad copy and landing page decide who bothers to click and contact, the form decides what you learn before the call, the call decides whether the lead becomes a booked estimate, and the data you send back to the ad platform decides whether it finds more people like the ones who bought. Most contractors work only on the first point and wonder why lead volume rose while signed work did not.',
+          },
+          {
+            question: 'Is it better to have fewer, better leads or more leads?',
+            answer: 'It depends on where the bottleneck is. A company whose sales capacity is full should raise qualification and accept fewer inquiries, because every unqualified call displaces a real one. A company with idle estimators should widen intake first, since a lead that is never generated cannot be qualified. The decision belongs to whichever constraint is actually binding, and the only way to know is to measure qualification rate alongside lead volume.',
+          },
+          {
+            question: 'What qualification questions should contractors ask?',
+            answer: 'Five areas cover most of it: what specifically needs to be done, where the property is, when the homeowner wants work to start, what range they have in mind or whether they have budgeted at all, and who else is involved in the decision. Asking about budget directly makes many contractors uncomfortable, but offering a typical range for that kind of project and asking whether it sounds workable gets the same answer without an interrogation.',
+          },
+          {
+            question: 'How do you measure contractor lead quality?',
+            answer: 'Track qualification rate, which is the share of inquiries that pass your qualification criteria, and cost per qualified lead rather than cost per lead. Then carry both through to booked estimates and signed projects, by source. A channel with a high cost per lead and a high qualification rate can easily deliver cheaper signed work than a channel producing inexpensive inquiries that never qualify.',
+          },
+          {
+            question: 'What is the difference between pay per click and pay per lead for contractors?',
+            answer: 'With pay per click you are charged when someone clicks, whether or not they ever contact you, so the risk of a wasted click sits with you. With pay per lead you are charged when contact happens. Google describes its Local Services Ads model as paying only for valid, qualified leads such as phone calls, message leads, or bookings, rather than standard ad clicks. Neither model guarantees the lead is qualified by your own standards: a charged lead can still be outside your service area or outside your budget range.',
+          },
+          {
+            question: 'Can you get a credit for a bad Local Services Ads lead?',
+            answer: 'Google operates automated lead credits for Local Services Ads, where charged leads are reassessed and credits are generally applied to the account balance within 30 days. The feature is available in the United States and Canada, and excluded for health care verticals, tax specialists, and advertisers in EMEA. Google also lists situations that do not earn a credit, including a valid lead received outside business hours, a customer asking for advice, a canceled booking, someone researching projects or prices, and a lead who never responded to your return call or message.',
+          },
+          {
+            question: 'Is Local Services Ads changing in 2026?',
+            answer: 'Yes. Google has documented a transition of Local Services Ads into Performance Max campaigns with pay-per-lead goals, starting August 2026 for selected home and storefront service categories in the United States, expanding to service-area businesses and custom configurations in late 2026, and reaching non-United States accounts and remaining categories in 2027. The pay-per-lead billing model carries over, weekly budgets become daily average budgets, and manual bidding along with vertical-level target CPA is deprecated.',
+          },
+          {
+            question: 'How do you tell Google Ads which leads were qualified?',
+            answer: 'Google Ads supports lead-specific conversion goals including qualified lead, converted lead, book appointment, and request quote, and its documentation notes that using these goals activates invalid traffic protections built for lead generation. Enhanced conversions for leads then sends hashed first-party data back from your CRM so the qualified outcome is attributed to the ad interaction that produced it. Google advises choosing qualified lead or converted lead as the goal, picking a conversion action with at least 15 conversions in the last 30 days, and uploading data regularly, ideally daily.',
+          },
+          {
+            question: 'How many service areas can a contractor list on Google Business Profile?',
+            answer: 'Google Business Profile allows up to 20 service areas, defined by cities, postal codes, or other areas served, and advises that the overall boundary should not extend more than about two hours of driving time from where the business is based. Listing areas the company will not realistically travel to produces inquiries that cannot be served, which is unqualified volume created on purpose.',
+          },
+        ],
+      },
+      'pt-BR': {
+        locale: 'pt-BR',
+        slug: 'como-gerar-leads-qualificados-para-contractors',
+        path: '/br/blog/como-gerar-leads-qualificados-para-contractors',
+        title: 'Como Gerar Leads Qualificados para Contractors',
+        seoTitle: 'Como Gerar Leads Qualificados para Contractors',
+        metaDescription: 'Como gerar leads qualificados para contractors: definir qualificação, filtrar antes do clique, qualificar no formulário e na ligação, e ensinar ao Google Ads quais leads valeram.',
+        excerpt: 'Um sistema para gerar leads de contractor que de fato fecham: como definir qualificação, filtrar em cada etapa da segmentação à ligação, e devolver o resultado para as plataformas otimizarem por qualidade em vez de volume.',
+        category: 'Geração de Leads',
+        primaryKeyword: 'leads qualificados para contractors',
+        secondaryKeywords: [
+          'como gerar leads qualificados para contractors',
+          'geração de leads para contractors',
+          'geração de leads para construção',
+          'qualificação de leads para contractors',
+          'leads para general contractors',
+          'custo por lead qualificado',
+          'qualidade de lead para contractors',
+          'local services ads pagamento por lead',
+          'conversões aprimoradas para leads',
+          'perguntas de qualificação de lead',
+        ],
+        featuredImageAlt: 'Funil de qualificação reduzindo todos os contatos até os leads qualificados',
+        publishedDate: '2026-10-07',
+        updatedDate: '2026-10-07',
+        readingTime: 15,
+        canonicalUrl: `${SITE_URL}/br/blog/como-gerar-leads-qualificados-para-contractors`,
+        faq: [
+          {
+            question: 'O que é um lead qualificado para contractor?',
+            answer: 'Lead qualificado é o contato que passa por todos os filtros que o negócio realmente leva em conta: o serviço é algo que a empresa faz e quer fazer mais, o imóvel está dentro da área de atuação, o orçamento está na faixa em que a empresa trabalha, o prazo é real e não exploratório, e quem procurou tem poder de decidir a contratação. Um contato que falha em qualquer um desses pontos continua sendo lead no relatório, mas não pode virar projeto. É por isso que contagem bruta de lead é uma medida ruim de programa de marketing.',
+          },
+          {
+            question: 'Como gerar mais leads qualificados?',
+            answer: 'A qualificação acontece em cinco pontos, não em um. A segmentação decide quem chega a ver o anúncio, o anúncio e a página decidem quem clica e entra em contato, o formulário decide o que você sabe antes da ligação, a ligação decide se o lead vira orçamento agendado, e o dado que você devolve à plataforma decide se ela vai buscar mais gente parecida com quem comprou. A maioria dos contractors trabalha só no primeiro ponto e depois estranha o volume de lead subir sem o volume de obra assinada subir.',
+          },
+          {
+            question: 'É melhor ter menos leads bons ou mais leads?',
+            answer: 'Depende de onde está o gargalo. Uma empresa com a capacidade comercial cheia deve subir a qualificação e aceitar menos contatos, porque cada ligação desqualificada ocupa o lugar de uma real. Uma empresa com orçamentista parado deve primeiro ampliar a entrada, já que lead que nunca foi gerado não tem como ser qualificado. A decisão pertence à restrição que está de fato travando, e o único jeito de saber é medir taxa de qualificação junto com volume de lead.',
+          },
+          {
+            question: 'Quais perguntas de qualificação fazer?',
+            answer: 'Cinco áreas cobrem quase tudo: o que exatamente precisa ser feito, onde está o imóvel, quando a pessoa quer começar, qual faixa de valor ela tem em mente ou se já orçou alguma coisa, e quem mais participa da decisão. Perguntar de orçamento direto incomoda muitos contractors, mas apresentar uma faixa típica para aquele tipo de projeto e perguntar se faz sentido traz a mesma resposta sem parecer interrogatório.',
+          },
+          {
+            question: 'Como medir a qualidade do lead?',
+            answer: 'Acompanhe a taxa de qualificação, que é o percentual de contatos que passam pelos seus critérios, e o custo por lead qualificado em vez do custo por lead. Depois leve os dois até orçamento agendado e projeto assinado, por origem. Um canal com custo por lead alto e taxa de qualificação alta pode entregar obra assinada mais barata do que um canal que produz contato baratinho que nunca qualifica.',
+          },
+          {
+            question: 'Qual a diferença entre pagar por clique e pagar por lead?',
+            answer: 'No pagamento por clique você é cobrado quando alguém clica, tenha entrado em contato ou não, então o risco do clique desperdiçado é seu. No pagamento por lead você é cobrado quando o contato acontece. O Google descreve o modelo do Local Services Ads como pagar apenas por leads válidos e qualificados, como ligações, mensagens ou agendamentos, em vez de cliques comuns. Nenhum dos dois modelos garante que o lead seja qualificado pelo seu critério: um lead cobrado pode estar fora da sua área ou fora da sua faixa de orçamento.',
+          },
+          {
+            question: 'Dá para pedir crédito de um lead ruim no Local Services Ads?',
+            answer: 'O Google opera créditos automáticos de lead no Local Services Ads, em que leads cobrados são reavaliados e o crédito costuma entrar no saldo da conta em até 30 dias. O recurso existe nos Estados Unidos e no Canadá, e está excluído para verticais de saúde, especialistas em impostos e anunciantes da região EMEA. O Google também lista situações que não geram crédito, entre elas lead válido recebido fora do horário de funcionamento, cliente pedindo orientação, agendamento cancelado, pessoa pesquisando projetos ou preços, e lead que nunca respondeu ao retorno da sua ligação ou mensagem.',
+          },
+          {
+            question: 'O Local Services Ads vai mudar em 2026?',
+            answer: 'Sim. O Google documentou a migração do Local Services Ads para campanhas Performance Max com meta de pagamento por lead, começando em agosto de 2026 para categorias selecionadas de serviços residenciais e de loja nos Estados Unidos, se estendendo a negócios com área de atuação e configurações personalizadas no fim de 2026, e chegando a contas fora dos Estados Unidos e às categorias restantes em 2027. O modelo de cobrança por lead continua, o orçamento semanal passa a ser orçamento diário médio, e o lance manual junto com o CPA alvo por vertical deixa de existir.',
+          },
+          {
+            question: 'Como dizer ao Google Ads quais leads foram qualificados?',
+            answer: 'O Google Ads tem metas de conversão específicas de geração de lead, incluindo lead qualificado, lead convertido, agendamento e pedido de orçamento, e a documentação dele registra que usar essas metas ativa proteções contra tráfego inválido feitas para geração de lead. As conversões aprimoradas para leads então devolvem dado primário com hash do seu CRM, para que o resultado qualificado seja atribuído à interação com o anúncio que o produziu. O Google orienta escolher lead qualificado ou lead convertido como meta, usar uma ação de conversão com pelo menos 15 conversões nos últimos 30 dias, e subir o dado com regularidade, de preferência diária.',
+          },
+          {
+            question: 'Quantas áreas de atuação cabem no Perfil da Empresa no Google?',
+            answer: 'O Perfil da Empresa no Google permite até 20 áreas de atuação, definidas por cidades, códigos postais ou outras áreas atendidas, e orienta que o limite geral não passe de cerca de duas horas de deslocamento a partir de onde o negócio fica. Listar área onde a empresa não vai realmente se deslocar produz contato que não pode ser atendido, ou seja, volume desqualificado criado de propósito.',
+          },
+        ],
+      },
+    },
+  },
 ]
 
 // ─── Legacy compat shims (keep existing imports working) ─────────────────────

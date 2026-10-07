@@ -1,0 +1,72 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid10" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#EAF1FC" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="accent10" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1565D8"/>
+      <stop offset="100%" stop-color="#0F4DA8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#FFFFFF"/>
+  <rect width="1200" height="630" fill="url(#grid10)"/>
+  <path d="M1200,0 L1200,260 L940,0 Z" fill="url(#accent10)" opacity="0.08"/>
+
+  <text x="80" y="86" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#1565D8">LEAD GENERATION</text>
+  <rect x="80" y="100" width="48" height="3" fill="#1565D8"/>
+
+  <text x="80" y="260" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#0A0A0A">How to Generate</text>
+  <text x="80" y="312" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#0A0A0A">Qualified Contractor</text>
+  <text x="80" y="364" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#0A0A0A">Leads</text>
+
+  <text x="80" y="590" font-family="Inter, Arial, sans-serif" font-size="15" fill="#667085">mktforcontractors.com</text>
+  <!-- simbolo oficial "camadas sob o telhado" (brand/logo-simbolo.svg), nao redesenhado -->
+  <g transform="translate(1030,578) scale(0.18) translate(-36,-52)">
+    <g fill="none" stroke="#0a0a0a" stroke-width="7" stroke-linejoin="round">
+      <path d="M 36 174 L 144 174 L 178 150 L 70 150 Z"/>
+      <path d="M 36 148 L 144 148 L 178 124 L 70 124 Z"/>
+      <path d="M 36 122 L 144 122 L 178 98 L 70 98 Z"/>
+    </g>
+    <path d="M 36 92 L 144 92 L 137 52 L 77 52 Z" fill="#1565d8"/>
+    <path d="M 144 92 L 178 68 L 137 52 Z" fill="#0f4ca6"/>
+  </g>
+  <text x="1064" y="595" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#0A0A0A">MKT for Contractors</text>
+
+  <!-- label chip -->
+  <rect x="710" y="62" width="270" height="40" rx="20" fill="#0A0A0A"/>
+  <text x="845" y="88" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">VOLUME IS NOT THE GOAL</text>
+
+  <!-- qualification funnel -->
+  <rect x="710" y="170" width="400" height="46" rx="4" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="1.5"/>
+  <text x="910" y="199" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#667085" text-anchor="middle">ALL INQUIRIES</text>
+
+  <rect x="745" y="232" width="330" height="46" rx="4" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="1.5"/>
+  <text x="910" y="261" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#667085" text-anchor="middle">WORK YOU DO</text>
+
+  <rect x="780" y="294" width="260" height="46" rx="4" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="1.5"/>
+  <text x="910" y="323" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#667085" text-anchor="middle">IN YOUR AREA</text>
+
+  <rect x="815" y="356" width="190" height="46" rx="4" fill="#FFFFFF" stroke="#D0D5DD" stroke-width="1.5"/>
+  <text x="910" y="385" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#667085" text-anchor="middle">BUDGET + TIMING</text>
+
+  <rect x="815" y="424" width="190" height="52" rx="4" fill="#1565D8"/>
+  <text x="910" y="456" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">QUALIFIED</text>
+
+  <!-- step connectors -->
+  <g fill="#D0D5DD">
+    <path d="M 904 220 L 916 220 L 910 229 Z"/>
+    <path d="M 904 282 L 916 282 L 910 291 Z"/>
+    <path d="M 904 344 L 916 344 L 910 353 Z"/>
+  </g>
+  <path d="M 904 406 L 916 406 L 910 418 Z" fill="#1565D8"/>
+
+  <!-- filtered-out markers -->
+  <g stroke="#D0D5DD" stroke-width="2.5" stroke-linecap="round">
+    <path d="M 690 246 L 702 258 M 702 246 L 690 258"/>
+    <path d="M 1118 246 L 1130 258 M 1130 246 L 1118 258"/>
+    <path d="M 725 308 L 737 320 M 737 308 L 725 320"/>
+    <path d="M 1083 308 L 1095 320 M 1095 308 L 1083 320"/>
+    <path d="M 760 370 L 772 382 M 772 370 L 760 382"/>
+    <path d="M 1048 370 L 1060 382 M 1060 370 L 1048 382"/>
+  </g>
+</svg>
