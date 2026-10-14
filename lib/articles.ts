@@ -262,6 +262,7 @@ export const articles: Article[] = [
       'good-cost-per-lead-for-general-contractors',
       'best-google-ads-keywords-for-general-contractors',
       'google-ads-vs-local-services-ads',
+      'contractor-leads-appointments',
     ],
     translations: {
       'en-US': {
@@ -1352,6 +1353,7 @@ export const articles: Article[] = [
       'follow-up-contractor-leads',
       'contractor-website-essentials',
       'best-google-ads-keywords-for-general-contractors',
+      'contractor-leads-appointments',
     ],
     translations: {
       'en-US': {
@@ -1491,6 +1493,161 @@ export const articles: Article[] = [
           {
             question: 'Quantas áreas de atuação cabem no Perfil da Empresa no Google?',
             answer: 'O Perfil da Empresa no Google permite até 20 áreas de atuação, definidas por cidades, códigos postais ou outras áreas atendidas, e orienta que o limite geral não passe de cerca de duas horas de deslocamento a partir de onde o negócio fica. Listar área onde a empresa não vai realmente se deslocar produz contato que não pode ser atendido, ou seja, volume desqualificado criado de propósito.',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'contractor-leads-appointments',
+    status: 'published',
+    featuredImage: '/images/blog/contractor-leads-appointments.svg',
+    relatedArticleIds: [
+      'general-contractor-marketing-guide',
+      'qualified-contractor-leads',
+      'follow-up-contractor-leads',
+      'contractor-website-essentials',
+      'good-cost-per-lead-for-general-contractors',
+      'contractor-marketing-roi',
+    ],
+    translations: {
+      'en-US': {
+        locale: 'en-US',
+        slug: 'why-contractor-leads-dont-turn-into-appointments',
+        path: '/blog/why-contractor-leads-dont-turn-into-appointments',
+        title: 'Why Contractor Leads Don\'t Turn Into Appointments',
+        seoTitle: 'Why Contractor Leads Don\'t Turn Into Appointments',
+        metaDescription: 'Why contractor leads never become booked appointments: invalid leads, leads you never reach, an ask that is too big, no way to book, untracked phone calls, and nothing written down.',
+        excerpt: 'The lead to appointment stage is where most contractor funnels leak, and almost nobody measures it. Here are the seven places it breaks, how to tell which one is yours, and what to fix first.',
+        category: 'CRM and Follow-Up',
+        primaryKeyword: 'contractor leads not turning into appointments',
+        secondaryKeywords: [
+          'why contractor leads don\'t turn into appointments',
+          'lead to appointment conversion rate',
+          'contractor appointment setting',
+          'book more estimates contractor',
+          'contractor lead response time',
+          'invalid leads google ads',
+          'call tracking for contractors',
+          'book appointment conversion goal',
+          'contractor CRM lead stages',
+          'contractor sales pipeline',
+        ],
+        featuredImageAlt: 'Funnel showing where contractor leads are lost between inquiry and booked appointment',
+        publishedDate: '2026-10-14',
+        updatedDate: '2026-10-14',
+        readingTime: 14,
+        canonicalUrl: `${SITE_URL}/blog/why-contractor-leads-dont-turn-into-appointments`,
+        faq: [
+          {
+            question: 'Why do contractor leads never turn into appointments?',
+            answer: 'Because lead to appointment is a stage with its own failure modes, and most contractors treat it as a single event instead. A lead can fail to become an appointment because it was never a real person, because nobody ever reached the homeowner, because another contractor answered first, because the only next step offered was a commitment the homeowner was not ready for, because there was no mechanism to book at all, because the call came in on a line nobody tracks, or because the outcome was never recorded and the lead simply went stale. Each of those has a different fix, which is why a single answer to the question is usually wrong.',
+          },
+          {
+            question: 'What is a good lead to appointment rate for a contractor?',
+            answer: 'There is no industry number worth trusting here, because the word lead means something different in every system it appears in. A channel that counts any inbound message and a paid search account that counts completed forms will produce lead to appointment rates that cannot be compared. The useful version is your own baseline, measured per source over a long enough period to be stable, and then watched for movement. A rate that drops while spend stays flat is the signal, not the absolute number.',
+          },
+          {
+            question: 'How fast should a contractor respond to a new lead?',
+            answer: 'Fast enough to be the first contractor the homeowner actually speaks to, which in practice means minutes rather than hours during working time. A homeowner requesting estimates usually contacts several companies at once, so response speed decides how many of these conversations happen at all rather than just when they happen. There is a measurement reason too: Google advises choosing a conversion action that happens within 7 days of the ad interaction for timely optimization, so a booked appointment that takes three weeks to arrange is a worse signal to report than the same appointment booked in two days.',
+          },
+          {
+            question: 'How do I know whether my leads are fake?',
+            answer: 'Google describes invalid leads as fake or low quality submissions from users or bots, including people who enter incorrect details such as fake email addresses or phone numbers. The tell is a cluster of leads where the phone number does not connect, the email bounces, and the name does not match anything. Google is explicit that its own filters do not prevent invalid leads on their own, since most traffic checks happen after the ad serves, and it recommends adding reCAPTCHA to forms, using double opt-in confirmation, and validating email domains and phone formats server side. Google calls lead quality a shared responsibility for this reason.',
+          },
+          {
+            question: 'Why do people fill out a form and then not answer the phone?',
+            answer: 'Usually because the call arrived later than the homeowner expected, from a number they do not recognize, at a time they cannot talk about a renovation. None of that means the lead was bad. It means the only channel attempted was the one with the highest chance of being ignored. A text message confirming the inquiry within a minute of submission, naming the company and the project, turns an unknown number into an expected call. The number of attempts and their spacing is the follow-up discipline covered separately.',
+          },
+          {
+            question: 'Should the appointment be booked on the first call?',
+            answer: 'Yes, whenever the lead qualifies, because every gap between the conversation and a date on the calendar is a chance for the homeowner to book someone else first. Ending a qualified call with a promise to send some times is the most common way a good lead becomes no appointment. If the person answering the phone cannot see the estimating calendar and commit to a slot, that is an operational problem dressed up as a marketing problem.',
+          },
+          {
+            question: 'How do I track which phone calls turn into appointments?',
+            answer: 'Google Ads phone call conversion tracking lets you set a minimum call length in seconds, and every call that lasts at least that long counts as a conversion, which filters out the short calls that were never going to contain a booking. That requires call reporting to be enabled so Google forwarding numbers are used. It is a proxy rather than a true appointment count, so the stronger version is to record the actual outcome of each call in the CRM and report booked appointments back from there.',
+          },
+          {
+            question: 'What are AI-qualified call conversions?',
+            answer: 'It is a Google Ads feature where calls are evaluated by AI rather than only by duration. Google states that if call recording is on, all calls will be recorded and evaluated by AI, and only qualified calls will count as conversions, with call duration used as a fallback signal when recording is not available. Google says the AI looks for signals of intent such as a customer inquiring about specific services, scheduling a consultation, or showing readiness to purchase. Call recording is currently only available when both the dialing and receiving phone numbers are located in the United States or Canada, and it stays off by default for health care and financial services businesses.',
+          },
+          {
+            question: 'How do I tell Google Ads that an appointment was booked?',
+            answer: 'Use a lead-specific conversion goal rather than a generic one. Google recommends goals such as qualified lead, converted lead, book appointment, or request quote, and notes that these automatically trigger invalid traffic protections built specifically for lead generation. Qualified lead tracks leads that were further qualified offline in your CRM, and converted lead tracks leads that completed a step you define in your lead conversion process. The two replaced the older imported leads goal. Enhanced conversions for leads is the mechanism that sends the offline outcome back from the CRM.',
+          },
+          {
+            question: 'Is the problem my leads or my sales process?',
+            answer: 'Separate the stage into two numbers and the answer appears. Contact rate is the share of leads you ever actually spoke with. Booking rate is the share of the leads you spoke with that agreed to an appointment. A low contact rate with a healthy booking rate is an operations problem: speed, channels, attempts. A healthy contact rate with a low booking rate is either a qualification problem upstream or a sales problem on the call. Reporting the two together as one lead to appointment number hides which of those you are actually looking at.',
+          },
+        ],
+      },
+      'pt-BR': {
+        locale: 'pt-BR',
+        slug: 'por-que-leads-de-contractors-nao-viram-agendamentos',
+        path: '/br/blog/por-que-leads-de-contractors-nao-viram-agendamentos',
+        title: 'Por Que Leads de Contractors Não Viram Agendamentos',
+        seoTitle: 'Por Que Leads de Contractors Não Viram Agendamentos',
+        metaDescription: 'Por que lead de contractor não vira visita agendada: lead inválido, lead que você nunca alcançou, pedido grande demais, nenhuma forma de agendar, ligação sem rastreio e nada registrado.',
+        excerpt: 'A etapa entre lead e agendamento é onde a maioria dos funis de contractor vaza, e quase ninguém mede. São sete pontos de quebra: veja como descobrir qual é o seu e o que consertar primeiro.',
+        category: 'CRM e Follow-Up',
+        primaryKeyword: 'lead de contractor que não vira agendamento',
+        secondaryKeywords: [
+          'por que leads de contractors não viram agendamentos',
+          'taxa de conversão de lead para agendamento',
+          'agendamento de visita para contractor',
+          'agendar mais orçamentos',
+          'tempo de resposta ao lead',
+          'leads inválidos no google ads',
+          'rastreamento de ligações para contractors',
+          'meta de conversão de agendamento',
+          'etapas de lead no CRM',
+          'pipeline comercial para contractors',
+        ],
+        featuredImageAlt: 'Funil mostrando onde o lead de contractor se perde entre o contato e a visita agendada',
+        publishedDate: '2026-10-14',
+        updatedDate: '2026-10-14',
+        readingTime: 14,
+        canonicalUrl: `${SITE_URL}/br/blog/por-que-leads-de-contractors-nao-viram-agendamentos`,
+        faq: [
+          {
+            question: 'Por que lead de contractor nunca vira agendamento?',
+            answer: 'Porque lead para agendamento é uma etapa com modos de falha próprios, e a maioria dos contractors trata isso como um evento único. Um lead pode não virar agendamento porque nunca foi uma pessoa real, porque ninguém conseguiu falar com o homeowner, porque outro contractor atendeu primeiro, porque o único próximo passo oferecido era um compromisso para o qual a pessoa não estava pronta, porque não existia nenhuma forma de agendar, porque a ligação entrou numa linha que ninguém rastreia, ou porque o resultado nunca foi registrado e o lead simplesmente esfriou. Cada um desses tem conserto diferente, e é por isso que uma resposta única para a pergunta quase sempre erra.',
+          },
+          {
+            question: 'Qual é uma boa taxa de lead para agendamento?',
+            answer: 'Não existe número de mercado confiável aqui, porque a palavra lead significa coisa diferente em cada sistema onde ela aparece. Um canal que conta qualquer mensagem recebida e uma conta de busca paga que conta formulário completo produzem taxas que não podem ser comparadas. O que serve é a sua própria linha de base, medida por origem, num período longo o suficiente para ser estável, e depois observada no movimento. Taxa caindo com investimento parado é o sinal, não o número absoluto.',
+          },
+          {
+            question: 'Em quanto tempo responder a um lead novo?',
+            answer: 'Rápido o suficiente para ser o primeiro contractor com quem o homeowner de fato fala, o que na prática significa minutos e não horas dentro do horário de trabalho. Quem pede orçamento normalmente procura várias empresas ao mesmo tempo, então a velocidade decide quantas dessas conversas acontecem, não só quando acontecem. Existe também um motivo de medição: o Google orienta escolher uma ação de conversão que aconteça dentro de 7 dias da interação com o anúncio para otimização em tempo útil, então um agendamento que levou três semanas para ser marcado é um sinal pior de devolver do que o mesmo agendamento feito em dois dias.',
+          },
+          {
+            question: 'Como saber se meus leads são falsos?',
+            answer: 'O Google descreve lead inválido como envio falso ou de baixa qualidade feito por pessoas ou bots, incluindo quem preenche dados incorretos como e-mail ou telefone falso. O sinal é um grupo de leads em que o telefone não completa, o e-mail volta e o nome não corresponde a nada. O Google é explícito ao dizer que os filtros dele não evitam lead inválido sozinhos, já que a maior parte das checagens de tráfego acontece depois que o anúncio é exibido, e recomenda colocar reCAPTCHA no formulário, usar confirmação por duplo opt-in e validar domínio de e-mail e formato de telefone no servidor. É por isso que o Google chama qualidade de lead de responsabilidade compartilhada.',
+          },
+          {
+            question: 'Por que a pessoa preenche o formulário e depois não atende?',
+            answer: 'Normalmente porque a ligação chegou depois do que ela esperava, de um número que ela não reconhece, num horário em que não dá para falar de reforma. Nada disso quer dizer que o lead era ruim. Quer dizer que o único canal tentado foi o que tem a maior chance de ser ignorado. Uma mensagem de texto confirmando o contato em menos de um minuto, dizendo o nome da empresa e o projeto, transforma um número desconhecido em ligação esperada. Quantas tentativas fazer e com que espaçamento é a disciplina de follow-up, tratada em artigo próprio.',
+          },
+          {
+            question: 'A visita deve ser agendada já na primeira ligação?',
+            answer: 'Sim, sempre que o lead qualificar, porque todo intervalo entre a conversa e uma data na agenda é uma chance de a pessoa fechar com outro antes. Encerrar uma ligação qualificada prometendo mandar alguns horários é a forma mais comum de um lead bom virar nenhum agendamento. Se quem atende o telefone não consegue ver a agenda de orçamento e comprometer um horário, isso é problema de operação vestido de problema de marketing.',
+          },
+          {
+            question: 'Como rastrear quais ligações viram agendamento?',
+            answer: 'O rastreamento de conversão de ligação do Google Ads permite definir uma duração mínima em segundos, e toda ligação que dura pelo menos aquele tempo conta como conversão, o que filtra as ligações curtas que nunca iam conter um agendamento. Isso exige o relatório de chamadas ativo, para que os números de encaminhamento do Google sejam usados. É uma aproximação, não uma contagem real de agendamento, então a versão mais forte é registrar o resultado de cada ligação no CRM e devolver dali os agendamentos feitos.',
+          },
+          {
+            question: 'O que são conversões de ligação qualificadas por IA?',
+            answer: 'É um recurso do Google Ads em que as ligações são avaliadas por IA em vez de só pela duração. O Google afirma que, com a gravação de chamadas ativada, todas as ligações são gravadas e avaliadas por IA, e só as qualificadas contam como conversão, usando a duração como sinal alternativo quando a gravação não está disponível. O Google diz que a IA procura sinais de intenção, como o cliente perguntando por serviços específicos, agendando uma consulta ou demonstrando disposição de comprar. A gravação de chamadas hoje só está disponível quando o número que liga e o que recebe estão nos Estados Unidos ou no Canadá, e fica desativada por padrão para negócios de saúde e de serviços financeiros.',
+          },
+          {
+            question: 'Como dizer ao Google Ads que o agendamento aconteceu?',
+            answer: 'Use uma meta de conversão específica de geração de lead em vez de uma genérica. O Google recomenda metas como lead qualificado, lead convertido, agendamento ou pedido de orçamento, e registra que essas metas ativam automaticamente proteções contra tráfego inválido feitas especificamente para geração de lead. Lead qualificado acompanha lead que foi qualificado fora do Google Ads, no seu CRM, e lead convertido acompanha lead que completou uma etapa que você define no seu processo. As duas substituíram a antiga meta de leads importados. As conversões aprimoradas para leads são o mecanismo que devolve esse resultado do CRM.',
+          },
+          {
+            question: 'O problema são meus leads ou meu comercial?',
+            answer: 'Separe a etapa em dois números e a resposta aparece. Taxa de contato é o percentual de leads com quem você realmente falou. Taxa de agendamento é o percentual dos leads com quem você falou que aceitou marcar a visita. Taxa de contato baixa com taxa de agendamento saudável é problema de operação: velocidade, canais, tentativas. Taxa de contato saudável com taxa de agendamento baixa é problema de qualificação antes, ou problema comercial na ligação. Reportar os dois juntos como um número só de lead para agendamento esconde qual dos dois você está olhando.',
           },
         ],
       },
