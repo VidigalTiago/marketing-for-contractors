@@ -77,10 +77,10 @@ export default function PricingSectionPT({ onCTAClick }: PricingSectionPTProps) 
             <div className="absolute bottom-0 left-0 w-4 h-4 border-l-2 border-b-2 border-[#1565D8]" />
             <div className="absolute bottom-0 right-0 w-4 h-4 border-r-2 border-b-2 border-[#1565D8]" />
 
-            <div className="inline-flex items-center gap-1.5 bg-[#1565D8] px-3 py-1.5 mb-6">
-              <div className="w-1.5 h-1.5 bg-white rounded-full animate-pulse" />
-              <span className="text-[10px] font-bold uppercase tracking-widest text-white">
-                Vagas Limitadas
+            <div className="flex items-center gap-2.5 bg-[#1565D8] px-4 py-3 mb-6">
+              <div className="w-2 h-2 bg-white rounded-full animate-pulse flex-shrink-0" />
+              <span className="text-sm lg:text-base font-extrabold uppercase tracking-wide text-white">
+                Você só paga se tiver resultado
               </span>
             </div>
 
@@ -90,10 +90,10 @@ export default function PricingSectionPT({ onCTAClick }: PricingSectionPTProps) 
 
             <div className="mb-6">
               <div className="flex items-end gap-2 mb-1">
-                <span className="text-4xl font-extrabold text-[#0A0A0A]">US$1.400</span>
-                <span className="text-sm text-[#667085] mb-1.5">/mês</span>
+                <span className="text-4xl font-extrabold text-[#0A0A0A]">2%</span>
+                <span className="text-sm text-[#667085] mb-1.5">de cada contrato novo que você fechar</span>
               </div>
-              <p className="text-xs text-[#667085]">Mais verba de anúncios</p>
+              <p className="text-xs text-[#667085]">Mais verba de anúncios. Indicações e clientes antigos não pagam.</p>
             </div>
 
             <ul className="space-y-2.5 mb-8">

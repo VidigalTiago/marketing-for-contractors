@@ -79,10 +79,10 @@ export default function PricingSection({ onCTAClick }: PricingSectionProps) {
             <div className="absolute bottom-0 right-0 w-4 h-4 border-r-2 border-b-2 border-[#1565D8]" />
 
             {/* Badge */}
-            <div className="inline-flex items-center gap-1.5 bg-[#1565D8] px-3 py-1.5 mb-6">
-              <div className="w-1.5 h-1.5 bg-white rounded-full animate-pulse" />
-              <span className="text-[10px] font-bold uppercase tracking-widest text-white">
-                Limited Partner Availability
+            <div className="flex items-center gap-2.5 bg-[#1565D8] px-4 py-3 mb-6">
+              <div className="w-2 h-2 bg-white rounded-full animate-pulse flex-shrink-0" />
+              <span className="text-sm lg:text-base font-extrabold uppercase tracking-wide text-white">
+                You only pay if you get results
               </span>
             </div>
 
@@ -92,10 +92,10 @@ export default function PricingSection({ onCTAClick }: PricingSectionProps) {
 
             <div className="mb-6">
               <div className="flex items-end gap-2 mb-1">
-                <span className="text-4xl font-extrabold text-[#0A0A0A]">US$1,400</span>
-                <span className="text-sm text-[#667085] mb-1.5">/month</span>
+                <span className="text-4xl font-extrabold text-[#0A0A0A]">2%</span>
+                <span className="text-sm text-[#667085] mb-1.5">of each new contract you close</span>
               </div>
-              <p className="text-xs text-[#667085]">Plus ad spend</p>
+              <p className="text-xs text-[#667085]">Plus ad spend. Referrals and past clients are not charged.</p>
             </div>
 
             <ul className="space-y-2.5 mb-8">
