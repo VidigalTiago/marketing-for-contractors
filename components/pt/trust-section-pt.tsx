@@ -8,6 +8,7 @@ const clients = [
   { name: 'Winterhill Builders', logo: '/clients/winterhill-builders.png' },
   { name: 'Home Identity', logo: '/clients/home-identity.png' },
   { name: 'Top GM Construction', logo: '/clients/top-gm-construction.png' },
+  { name: 'Alyssa Flooring', logo: '/clients/alyssa-flooring.svg' },
 ]
 
 export default function TrustSectionPT() {

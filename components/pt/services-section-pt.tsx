@@ -76,7 +76,7 @@ const services = [
       'Páginas de solicitação de orçamento',
       'Rastreamento de conversão',
     ],
-    note: 'Redesign completo do site e landing pages personalizadas são cotados separadamente.',
+    note: null,
   },
   {
     title: 'Base de SEO Local',
@@ -90,7 +90,7 @@ const services = [
       'Revisão de problemas técnicos',
       'Roadmap de visibilidade local',
     ],
-    note: 'Produção contínua de conteúdo SEO e link building não estão incluídos.',
+    note: null,
   },
 ]
 

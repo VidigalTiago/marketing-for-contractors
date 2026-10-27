@@ -10,6 +10,7 @@ const clients = [
   { name: 'Home Identity', logo: '/clients/home-identity.png' },
   { name: 'Top GM Construction', logo: '/clients/top-gm-construction.png' },
   { name: 'Forma Construction', logo: '/logos/forma-construction.webp' },
+  { name: 'Alyssa Flooring', logo: '/clients/alyssa-flooring.svg' },
 ]
 
 const VISIBLE = 4

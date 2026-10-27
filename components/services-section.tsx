@@ -76,7 +76,7 @@ const services = [
       'Estimate request pages',
       'Conversion tracking',
     ],
-    note: 'Full website redesigns and custom landing pages are quoted separately.',
+    note: null,
   },
   {
     title: 'Local SEO Foundation',
@@ -90,7 +90,7 @@ const services = [
       'Technical issue review',
       'Local visibility roadmap',
     ],
-    note: 'Ongoing SEO content production and link building are not included.',
+    note: null,
   },
 ]
 
