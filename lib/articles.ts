@@ -220,14 +220,6 @@ const standaloneRelatedCards: Partial<Record<SupportedLocale, Record<string, Omi
       readingTime: 8,
       status: 'coming-soon',
     },
-    'local-seo-general-contractors': {
-      slug: 'local-seo-general-contractors',
-      title: 'Local SEO for General Contractors',
-      excerpt: 'How to rank your construction company in Google Maps and local search results to generate organic leads in your service area.',
-      category: 'Local SEO',
-      readingTime: 11,
-      status: 'coming-soon',
-    },
   },
   'pt-BR': {
     'contractor-marketing-roi': {
@@ -236,14 +228,6 @@ const standaloneRelatedCards: Partial<Record<SupportedLocale, Record<string, Omi
       excerpt: 'Framework passo a passo para calcular o retorno real do seu investimento em marketing — do gasto com anúncios à receita assinada.',
       category: 'Métricas de Marketing',
       readingTime: 8,
-      status: 'coming-soon',
-    },
-    'local-seo-general-contractors': {
-      slug: 'seo-local-para-general-contractors',
-      title: 'SEO Local para General Contractors',
-      excerpt: 'Como posicionar sua empresa de construção no Google Maps e nos resultados de busca local para gerar leads orgânicos na sua área de atuação.',
-      category: 'SEO Local',
-      readingTime: 11,
       status: 'coming-soon',
     },
   },
@@ -1199,6 +1183,7 @@ export const articles: Article[] = [
       'follow-up-contractor-leads',
       'google-ads-for-general-contractors',
       'contractor-marketing-budget',
+      'local-seo-general-contractors',
     ],
     translations: {
       'en-US': {
@@ -1648,6 +1633,153 @@ export const articles: Article[] = [
           {
             question: 'O problema são meus leads ou meu comercial?',
             answer: 'Separe a etapa em dois números e a resposta aparece. Taxa de contato é o percentual de leads com quem você realmente falou. Taxa de agendamento é o percentual dos leads com quem você falou que aceitou marcar a visita. Taxa de contato baixa com taxa de agendamento saudável é problema de operação: velocidade, canais, tentativas. Taxa de contato saudável com taxa de agendamento baixa é problema de qualificação antes, ou problema comercial na ligação. Reportar os dois juntos como um número só de lead para agendamento esconde qual dos dois você está olhando.',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'local-seo-general-contractors',
+    status: 'published',
+    featuredImage: '/images/blog/local-seo-general-contractors.svg',
+    relatedArticleIds: [
+      'general-contractor-marketing-guide',
+      'contractor-website-essentials',
+      'qualified-contractor-leads',
+      'google-ads-vs-local-services-ads',
+      'contractor-leads-appointments',
+      'good-cost-per-lead-for-general-contractors',
+    ],
+    translations: {
+      'en-US': {
+        locale: 'en-US',
+        slug: 'local-seo-general-contractors',
+        path: '/blog/local-seo-general-contractors',
+        title: 'Local SEO for General Contractors',
+        seoTitle: 'Local SEO for General Contractors: A Practical Guide',
+        metaDescription: 'How general contractors rank in Google Maps and local search: Google\'s three ranking factors, service areas, reviews, citations, and structured data.',
+        excerpt: 'How to rank your construction company in Google Maps and local search results, using Google\'s own ranking factors, to generate organic leads in your service area.',
+        category: 'Local SEO',
+        primaryKeyword: 'local SEO for general contractors',
+        secondaryKeywords: [
+          'local SEO for contractors',
+          'Google Business Profile for contractors',
+          'construction company SEO',
+          'general contractor SEO',
+          'Google Maps ranking for contractors',
+          'service area business Google',
+          'contractor citations and reviews',
+          'local search ranking factors',
+          'SEO for home services businesses',
+          'organic leads for contractors',
+        ],
+        featuredImageAlt: 'Local SEO ranking framework for a general contractor Business Profile',
+        publishedDate: '2026-10-28',
+        updatedDate: '2026-10-28',
+        readingTime: 17,
+        canonicalUrl: `${SITE_URL}/blog/local-seo-general-contractors`,
+        faq: [
+          {
+            question: 'What is local SEO for a general contractor?',
+            answer: 'Local SEO is the work of making a construction company visible and credible in Google Maps and in the local results that appear above the regular organic listings when someone searches for a contractor near them. For a general contractor, that mainly means a complete and accurate Google Business Profile, service pages that match the services and cities actually served, structured data that describes the business correctly, and a pattern of reviews and citations that signal the business is established and trusted in its area.',
+          },
+          {
+            question: 'What are Google\'s three local ranking factors?',
+            answer: 'Google states that local ranking depends on relevance, distance, and prominence. Relevance is how well a Business Profile matches what someone is searching for. Distance is how far the business is from the person searching, or from the area they specified. Prominence is how well known the business is, based on signals such as the quantity and quality of reviews and links from across the web. Google is explicit that there is no way to pay for a better local ranking.',
+          },
+          {
+            question: 'How many service areas can a contractor set in their Google Business Profile?',
+            answer: 'Google allows up to 20 service areas, defined by cities, postal codes, or other areas served. Google also states that the boundaries of the overall service area should not extend more than about two hours of driving time from where the business is based. Listing areas far outside a realistic driving radius works against relevance rather than for it.',
+          },
+          {
+            question: 'Can a general contractor hide their business address on Google?',
+            answer: 'Yes, and Google requires it in a specific case. For a service-area business that does not welcome customers to its own address, such as most general contractors who work at the client\'s property, Google\'s guidance is to remove the address and enter a service area instead. A contractor who does have a public office or showroom that customers visit keeps the address visible.',
+          },
+          {
+            question: 'Is it against Google\'s policy to offer a discount in exchange for a review?',
+            answer: 'Yes. Google\'s policy on incentivized and biased content prohibits offering payment, discounts, free goods, or any other benefit in exchange for posting, revising, or removing a review. Businesses found doing this can have reviews unpublished, lose the ability to receive new reviews for a period, or have a warning displayed on the profile. Asking satisfied customers to leave an honest review, with no incentive attached, is the compliant way to build review volume.',
+          },
+          {
+            question: 'What structured data should a general contractor\'s website use?',
+            answer: 'Google\'s structured data documentation requires a name and a complete address for LocalBusiness eligibility, and recommends adding opening hours, a telephone number, geographic coordinates, a price range, and a working URL. Google also advises using the most specific LocalBusiness subtype available rather than the generic one. Schema.org defines GeneralContractor as a subtype of HomeAndConstructionBusiness, which is the appropriate type for a construction company rather than a generic local business.',
+          },
+          {
+            question: 'Should a contractor select many categories on their Google Business Profile?',
+            answer: 'No. Google\'s own guidance recommends using as few categories as possible to describe the core of the business, and suggests testing each candidate category against the question "this business IS a," not "this business HAS a." A general contractor should choose the category that matches its primary trade first, and avoid adding categories purely as a way to rank for extra keywords.',
+          },
+          {
+            question: 'How is local SEO different from Google Ads or Local Services Ads?',
+            answer: 'Local SEO builds organic visibility in Maps and search results without a per-click or per-lead charge, but it takes time to build and cannot be turned on for an immediate spike in volume. Google Ads and Local Services Ads buy placement and leads immediately but stop producing results the moment spend stops. The two are not substitutes for each other. A contractor relying only on paid channels is renting visibility, while local SEO is closer to owning it, and the strongest programs run both at once.',
+          },
+          {
+            question: 'What is NAP consistency and why does it matter for a contractor?',
+            answer: 'NAP stands for name, address, and phone number. It refers to the practice of keeping those three details identical across the Google Business Profile, the website, and every other directory or citation where the business appears. This is general local SEO practice rather than a documented Google ranking rule, but it matters because mismatched details make it harder for Google, and for the homeowner reading the listing, to confirm that all the mentions of the business refer to the same, real company.',
+          },
+        ],
+      },
+      'pt-BR': {
+        locale: 'pt-BR',
+        slug: 'seo-local-para-general-contractors',
+        path: '/br/blog/seo-local-para-general-contractors',
+        title: 'SEO Local para General Contractors',
+        seoTitle: 'SEO Local para General Contractors: Guia Prático',
+        metaDescription: 'Como general contractors aparecem no Google Maps e na busca local: os três fatores de ranqueamento do Google, área de atuação, avaliações, citações e dados estruturados.',
+        excerpt: 'Como posicionar sua empresa de construção no Google Maps e nos resultados de busca local, usando os próprios fatores de ranqueamento do Google, para gerar leads orgânicos na sua área de atuação.',
+        category: 'SEO Local',
+        primaryKeyword: 'SEO local para general contractors',
+        secondaryKeywords: [
+          'SEO local para contractors',
+          'Google Business Profile para contractors',
+          'SEO para empresa de construção',
+          'SEO para general contractor',
+          'ranqueamento no Google Maps para contractors',
+          'área de atuação no Google',
+          'citações e avaliações para contractors',
+          'fatores de ranqueamento local',
+          'SEO para empresas de home services',
+          'leads orgânicos para contractors',
+        ],
+        featuredImageAlt: 'Framework de SEO local para o Perfil da Empresa de um general contractor',
+        publishedDate: '2026-10-28',
+        updatedDate: '2026-10-28',
+        readingTime: 17,
+        canonicalUrl: `${SITE_URL}/br/blog/seo-local-para-general-contractors`,
+        faq: [
+          {
+            question: 'O que é SEO local para um general contractor?',
+            answer: 'SEO local é o trabalho de tornar uma empresa de construção visível e confiável no Google Maps e nos resultados locais que aparecem acima da lista orgânica comum quando alguém busca um contractor por perto. Para um general contractor, isso significa principalmente um Perfil da Empresa completo e correto no Google, páginas de serviço que correspondem de verdade aos serviços e cidades atendidas, dados estruturados que descrevem a empresa corretamente, e um padrão de avaliações e citações que mostra que a empresa é estabelecida e confiável na sua região.',
+          },
+          {
+            question: 'Quais são os três fatores de ranqueamento local do Google?',
+            answer: 'O Google afirma que o ranqueamento local depende de relevância, distância e proeminência. Relevância é o quanto um Perfil da Empresa corresponde ao que a pessoa está buscando. Distância é a distância entre a empresa e quem está buscando, ou a área que a pessoa indicou. Proeminência é o quão conhecida a empresa é, com base em sinais como a quantidade e a qualidade das avaliações e os links que apontam para ela pela web. O Google é explícito ao dizer que não existe forma de pagar por um ranqueamento local melhor.',
+          },
+          {
+            question: 'Quantas áreas de atuação um contractor pode definir no Perfil da Empresa?',
+            answer: 'O Google permite até 20 áreas de atuação, definidas por cidades, CEPs ou outras regiões atendidas. O Google também afirma que os limites da área de atuação no total não devem passar de cerca de duas horas de deslocamento de carro a partir de onde a empresa está baseada. Listar áreas muito além de um raio realista de deslocamento trabalha contra a relevância, não a favor dela.',
+          },
+          {
+            question: 'Um general contractor pode esconder o endereço da empresa no Google?',
+            answer: 'Sim, e o Google exige isso num caso específico. Para uma empresa de área de atuação que não recebe clientes no próprio endereço, como a maioria dos general contractors, que trabalham no imóvel do cliente, a orientação do Google é remover o endereço e informar uma área de atuação em vez dele. Um contractor que de fato tem um escritório ou showroom público visitado por clientes mantém o endereço visível.',
+          },
+          {
+            question: 'É contra a política do Google oferecer desconto em troca de uma avaliação?',
+            answer: 'Sim. A política do Google sobre conteúdo incentivado e tendencioso proíbe oferecer pagamento, desconto, produto gratuito ou qualquer outro benefício em troca de publicar, revisar ou remover uma avaliação. A empresa flagrada fazendo isso pode ter avaliações despublicadas, perder a capacidade de receber avaliações novas por um período, ou ter um aviso exibido no perfil. Pedir para o cliente satisfeito deixar uma avaliação honesta, sem nenhum incentivo associado, é a forma dentro da política de construir volume de avaliações.',
+          },
+          {
+            question: 'Quais dados estruturados o site de um general contractor deve usar?',
+            answer: 'A documentação de dados estruturados do Google exige nome e endereço completo para elegibilidade como LocalBusiness, e recomenda acrescentar horário de funcionamento, telefone, coordenadas geográficas, faixa de preço e uma URL funcional. O Google também orienta usar o subtipo de LocalBusiness mais específico disponível em vez do genérico. O schema.org define GeneralContractor como subtipo de HomeAndConstructionBusiness, que é o tipo correto para uma empresa de construção em vez de um negócio local genérico.',
+          },
+          {
+            question: 'Um contractor deve selecionar muitas categorias no Perfil da Empresa?',
+            answer: 'Não. A própria orientação do Google recomenda usar o menor número possível de categorias para descrever o núcleo do negócio, e sugere testar cada categoria candidata contra a pergunta "esta empresa É uma", não "esta empresa TEM uma". Um general contractor deve escolher primeiro a categoria que corresponde ao seu ofício principal, e evitar acrescentar categorias só como forma de ranquear para palavras-chave extras.',
+          },
+          {
+            question: 'Qual a diferença entre SEO local e Google Ads ou Local Services Ads?',
+            answer: 'SEO local constrói visibilidade orgânica no Maps e na busca sem cobrança por clique ou por lead, mas leva tempo para se construir e não pode ser ligado para gerar um pico imediato de volume. Google Ads e Local Services Ads compram posição e leads imediatamente, mas param de produzir resultado no momento em que o investimento para. Os dois não são substitutos um do outro. Um contractor que depende só de canal pago está alugando visibilidade, enquanto o SEO local está mais perto de ser dono dela, e os programas mais fortes rodam os dois ao mesmo tempo.',
+          },
+          {
+            question: 'O que é consistência de NAP e por que importa para um contractor?',
+            answer: 'NAP é a sigla em inglês para nome, endereço e telefone (name, address, phone). Refere-se à prática de manter esses três dados idênticos no Perfil da Empresa do Google, no site e em todo outro diretório ou citação em que a empresa aparece. Isso é prática geral de SEO local, não uma regra de ranqueamento documentada pelo Google, mas importa porque dados divergentes dificultam tanto para o Google quanto para o homeowner lendo o anúncio confirmar que todas as menções à empresa são da mesma empresa real.',
           },
         ],
       },
