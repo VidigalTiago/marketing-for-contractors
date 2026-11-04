@@ -737,6 +737,7 @@ export const articles: Article[] = [
       'best-google-ads-keywords-contractors',
       'cost-per-lead-contractors',
       'follow-up-contractor-leads',
+      'angi-leads-vs-google-ads-for-contractors',
     ],
     translations: {
       'en-US': {
@@ -1780,6 +1781,153 @@ export const articles: Article[] = [
           {
             question: 'O que é consistência de NAP e por que importa para um contractor?',
             answer: 'NAP é a sigla em inglês para nome, endereço e telefone (name, address, phone). Refere-se à prática de manter esses três dados idênticos no Perfil da Empresa do Google, no site e em todo outro diretório ou citação em que a empresa aparece. Isso é prática geral de SEO local, não uma regra de ranqueamento documentada pelo Google, mas importa porque dados divergentes dificultam tanto para o Google quanto para o homeowner lendo o anúncio confirmar que todas as menções à empresa são da mesma empresa real.',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'angi-leads-vs-google-ads-for-contractors',
+    status: 'published',
+    featuredImage: '/images/blog/angi-leads-vs-google-ads-for-contractors.svg',
+    relatedArticleIds: [
+      'general-contractor-marketing-guide',
+      'google-ads-for-general-contractors',
+      'google-ads-vs-local-services-ads',
+      'good-cost-per-lead-for-general-contractors',
+      'qualified-contractor-leads',
+      'local-seo-general-contractors',
+    ],
+    translations: {
+      'en-US': {
+        locale: 'en-US',
+        slug: 'angi-leads-vs-google-ads-for-contractors',
+        path: '/blog/angi-leads-vs-google-ads-for-contractors',
+        title: 'Angi Leads vs Google Ads for Contractors',
+        seoTitle: 'Angi Leads vs Google Ads for Contractors',
+        metaDescription: 'Compare Angi Leads and Google Ads for general contractors: shared vs exclusive leads, pricing model, eligibility requirements, and which fits which business.',
+        excerpt: 'A practical comparison of Angi Leads and Google Ads for general contractors, covering how leads are shared or kept exclusive, how each platform prices and qualifies a business, and which one fits a given stage of growth.',
+        category: 'Google Ads',
+        primaryKeyword: 'Angi Leads vs Google Ads for contractors',
+        secondaryKeywords: [
+          'Angi Leads for contractors',
+          'Angi vs Google Ads',
+          'is Angi Leads worth it for contractors',
+          'Angi Approved vs Google Guaranteed',
+          'Local Services Ads vs Angi Leads',
+          'shared leads vs exclusive leads contractors',
+          'general contractor lead generation platforms',
+          'Angi Ads for contractors',
+          'contractor marketing platform comparison',
+          'where should contractors generate leads',
+        ],
+        featuredImageAlt: 'Comparison of a shared lead on Angi Leads versus an exclusive lead on Google Ads for a general contractor',
+        publishedDate: '2026-11-04',
+        updatedDate: '2026-11-04',
+        readingTime: 15,
+        canonicalUrl: `${SITE_URL}/blog/angi-leads-vs-google-ads-for-contractors`,
+        faq: [
+          {
+            question: 'What is the main difference between Angi Leads and Google Ads?',
+            answer: 'Angi Leads is a marketplace: a homeowner submits one service request and Angi matches it to multiple contractors at the same time, each of whom pays a fee for that same lead. Google Ads is a campaign the contractor builds and runs directly, either a traditional Search campaign paid per click on chosen keywords, or, since Local Services Ads folded into Google Ads in 2026, a Performance Max campaign built around a pay-per-lead goal. The core difference is who controls the campaign and whether the lead is shared with competitors.',
+          },
+          {
+            question: 'Are Angi Leads shared with other contractors?',
+            answer: 'Yes. Angi\'s own help center for professionals states that a completed service request is used to "connect customers with multiple Angi Leads service professionals that can best complete their project." The same homeowner inquiry can reach several competing contractors at once, and each one is charged the lead fee regardless of whether they win the job.',
+          },
+          {
+            question: 'How much does Angi Leads cost?',
+            answer: 'Angi does not publish a fixed price list. Its own FAQ for professionals states that contractors "pay a nominal fee for each lead you match to," and that "different sized jobs have different Lead Fees," directing contractors to contact sales for current rates. Angi also states explicitly that it makes no guarantee about lead volume.',
+          },
+          {
+            question: 'What is Angi Ads, and is it the same as Angi Leads?',
+            answer: 'No. Angi Ads and Angi Leads are two different programs on the same platform. Angi Ads is paid placement: a business that has at least one review, maintains an average rating of 3 stars or higher, passes a background check on its owner, principal, or manager, and holds valid licenses can become "Angi Approved" and pay to be listed above non-approved businesses in search results. Angi Leads is the request-matching program described above. A contractor can run one, both, or neither.',
+          },
+          {
+            question: 'Does Google Ads require a background check like Angi?',
+            answer: 'It depends on which part of Google Ads. A traditional Search campaign, where a contractor bids on keywords, does not require a trade license or background check to launch, only standard identity verification under Google\'s general advertiser policies. Local Services, now managed inside Google Ads as a Performance Max lead goal, does require a background check and license verification for home improvement categories before a business can earn the Google Guaranteed badge, though Google has recently removed the need to submit a license document upfront for many North American categories at initial qualification while the license itself is still required.',
+          },
+          {
+            question: 'What happened to Local Services Ads in 2026?',
+            answer: 'Google began migrating Local Services Ads out of its own standalone dashboard and into Google Ads, where it now runs as a Performance Max campaign built around a pay-per-lead goal. According to Google Ads Help, the rollout started in August 2026 for selected home and storefront service categories in the United States, expands to more advertiser groups through late 2026, and reaches non-US accounts in 2027. Ads still appear on Google Search and Google Maps in the same positions, and the business still pays only for valid leads such as calls and messages, not for clicks.',
+          },
+          {
+            question: 'Can a contractor run Angi Leads and Google Ads at the same time?',
+            answer: 'Yes, and many established local service businesses run more than one lead source at once rather than choosing a single channel. The requirement for doing this profitably is tracking every lead back to its source in the CRM and comparing cost per qualified lead and signed revenue separately by channel, since a shared marketplace lead and an exclusive search lead are not the same unit of value and should never be averaged together.',
+          },
+          {
+            question: 'Is Angi Leads a good fit for a new contractor with few reviews?',
+            answer: 'It can be, because Angi\'s matching does not require the volume of reviews or search history that often helps on Google. The tradeoff is that the same lead is being pitched to competitors at the same time, so the real comparison is not the lead fee but the cost per signed project once the win rate on shared leads is factored in. A contractor still building its review base may use Angi Leads for initial volume while building toward Google Guaranteed eligibility and local SEO at the same time.',
+          },
+          {
+            question: 'Which platform gives a contractor more control over targeting?',
+            answer: 'Google Ads gives more direct control. A Search campaign lets a contractor choose keywords, locations, budget, and ad copy, and the Local Services lead-goal campaign lets a contractor set service categories, service areas, and a target cost per lead inside Google Ads. Angi Leads lets a contractor set the type of work and the geography served, but has no bidding mechanism and no control over how many other contractors are matched to the same request.',
+          },
+        ],
+      },
+      'pt-BR': {
+        locale: 'pt-BR',
+        slug: 'angi-leads-vs-google-ads-para-contractors',
+        path: '/br/blog/angi-leads-vs-google-ads-para-contractors',
+        title: 'Angi Leads vs Google Ads para Contractors',
+        seoTitle: 'Angi Leads vs Google Ads para Contractors',
+        metaDescription: 'Compare Angi Leads e Google Ads para general contractors: lead compartilhado ou exclusivo, modelo de cobrança, exigências de elegibilidade e qual se encaixa em qual negócio.',
+        excerpt: 'Uma comparação prática entre Angi Leads e Google Ads para general contractors, mostrando como cada plataforma compartilha ou reserva o lead, como cobra e qualifica a empresa, e qual se encaixa melhor em cada estágio de crescimento.',
+        category: 'Google Ads',
+        primaryKeyword: 'Angi Leads vs Google Ads para contractors',
+        secondaryKeywords: [
+          'Angi Leads para contractors',
+          'Angi vs Google Ads',
+          'Angi Leads vale a pena para contractors',
+          'Angi Approved vs Google Guaranteed',
+          'Local Services Ads vs Angi Leads',
+          'lead compartilhado vs lead exclusivo',
+          'plataformas de geração de leads para contractors',
+          'Angi Ads para contractors',
+          'comparação de plataformas de marketing para contractors',
+          'onde um contractor deve gerar leads',
+        ],
+        featuredImageAlt: 'Comparação entre um lead compartilhado no Angi Leads e um lead exclusivo no Google Ads para um general contractor',
+        publishedDate: '2026-11-04',
+        updatedDate: '2026-11-04',
+        readingTime: 15,
+        canonicalUrl: `${SITE_URL}/br/blog/angi-leads-vs-google-ads-para-contractors`,
+        faq: [
+          {
+            question: 'Qual é a principal diferença entre Angi Leads e Google Ads?',
+            answer: 'O Angi Leads é um marketplace: o homeowner envia uma solicitação de serviço e o Angi encaminha essa mesma solicitação para vários contractors ao mesmo tempo, e cada um deles paga uma taxa por esse lead. O Google Ads é uma campanha que o próprio contractor monta e administra, seja uma campanha de Search tradicional cobrada por clique em palavras-chave escolhidas por ele, seja, desde que o Local Services Ads passou a fazer parte do Google Ads em 2026, uma campanha Performance Max construída em torno de uma meta de pagamento por lead. A diferença central é quem controla a campanha e se o lead é compartilhado com concorrentes.',
+          },
+          {
+            question: 'Os leads do Angi Leads são compartilhados com outros contractors?',
+            answer: 'Sim. A própria central de ajuda do Angi para profissionais afirma que uma solicitação de serviço completa é usada para "conectar clientes com múltiplos profissionais do Angi Leads que possam concluir o projeto" (tradução livre). A mesma solicitação de um homeowner pode chegar a vários contractors concorrentes ao mesmo tempo, e cada um é cobrado pela taxa do lead, independentemente de ganhar o projeto ou não.',
+          },
+          {
+            question: 'Quanto custa o Angi Leads?',
+            answer: 'O Angi não publica uma tabela de preços fixa. A própria FAQ para profissionais afirma que o contractor "paga uma taxa nominal por cada lead correspondido" e que "projetos de tamanhos diferentes têm taxas de lead diferentes", direcionando o contractor a entrar em contato com o time de vendas para valores atuais. O Angi também afirma explicitamente que não garante volume de leads.',
+          },
+          {
+            question: 'O que é o Angi Ads, e é a mesma coisa que o Angi Leads?',
+            answer: 'Não. Angi Ads e Angi Leads são dois programas diferentes dentro da mesma plataforma. O Angi Ads é posicionamento pago: uma empresa com pelo menos uma avaliação, nota média de 3 estrelas ou mais, aprovação em verificação de antecedentes do proprietário, sócio-administrador ou gerente, e licenças válidas pode se tornar "Angi Approved" e pagar para aparecer listada acima das empresas não aprovadas nos resultados de busca. O Angi Leads é o programa de correspondência de solicitações descrito acima. Um contractor pode usar um, os dois, ou nenhum.',
+          },
+          {
+            question: 'O Google Ads exige verificação de antecedentes como o Angi?',
+            answer: 'Depende de qual parte do Google Ads. Uma campanha de Search tradicional, em que o contractor dá lances em palavras-chave, não exige licença do ofício nem verificação de antecedentes para começar, só a verificação de identidade padrão das políticas gerais de anunciante do Google. O Local Services, hoje administrado dentro do Google Ads como uma meta de lead do Performance Max, exige verificação de antecedentes e de licença nas categorias de home improvement antes de a empresa receber o selo Google Guaranteed, embora o Google tenha removido recentemente a exigência de enviar o documento da licença de início em muitas categorias norte-americanas na qualificação inicial, mesmo que a licença em si continue sendo exigida.',
+          },
+          {
+            question: 'O que aconteceu com o Local Services Ads em 2026?',
+            answer: 'O Google começou a migrar o Local Services Ads do seu próprio painel independente para dentro do Google Ads, onde agora roda como uma campanha Performance Max construída em torno de uma meta de pagamento por lead. Segundo a Central de Ajuda do Google Ads, a migração começou em agosto de 2026 para categorias selecionadas de serviços residenciais e com loja física nos Estados Unidos, se expande para mais grupos de anunciantes até o fim de 2026, e chega às contas fora dos EUA em 2027. Os anúncios continuam aparecendo no Google Search e no Google Maps nas mesmas posições, e a empresa continua pagando só por leads válidos, como ligações e mensagens, não por clique.',
+          },
+          {
+            question: 'Um contractor pode usar Angi Leads e Google Ads ao mesmo tempo?',
+            answer: 'Sim, e muitas empresas de serviço local já estabelecidas rodam mais de uma origem de lead ao mesmo tempo, em vez de escolher um único canal. O requisito para fazer isso de forma lucrativa é rastrear todo lead até sua origem no CRM e comparar o custo por lead qualificado e a receita assinada separadamente por canal, porque um lead compartilhado de marketplace e um lead exclusivo de busca não têm o mesmo valor por unidade e nunca deveriam ser misturados numa média só.',
+          },
+          {
+            question: 'O Angi Leads é uma boa opção para um contractor novo, com poucas avaliações?',
+            answer: 'Pode ser, porque a correspondência do Angi não exige o volume de avaliações ou de histórico de busca que costuma ajudar no Google. O lado negativo é que o mesmo lead está sendo oferecido a concorrentes ao mesmo tempo, então a comparação real não é a taxa do lead, e sim o custo por projeto assinado depois de considerar a taxa de fechamento em leads compartilhados. Um contractor que ainda está construindo sua base de avaliações pode usar o Angi Leads para gerar volume inicial enquanto constrói elegibilidade para o Google Guaranteed e para o SEO local ao mesmo tempo.',
+          },
+          {
+            question: 'Qual plataforma dá mais controle de segmentação ao contractor?',
+            answer: 'O Google Ads dá controle mais direto. Uma campanha de Search permite escolher palavras-chave, localização, orçamento e o texto do anúncio, e a campanha de meta de lead do Local Services permite definir categorias de serviço, área de atuação e um custo-alvo por lead dentro do próprio Google Ads. O Angi Leads permite definir o tipo de trabalho e a área geográfica atendida, mas não tem mecanismo de lance e não dá controle sobre quantos outros contractors são correspondidos à mesma solicitação.',
           },
         ],
       },
