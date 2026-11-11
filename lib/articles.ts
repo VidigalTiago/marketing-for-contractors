@@ -1024,7 +1024,7 @@ export const articles: Article[] = [
     id: 'contractor-marketing-roi',
     status: 'published',
     featuredImage: '/images/blog/how-to-calculate-contractor-marketing-roi.svg',
-    relatedArticleIds: ['general-contractor-marketing-guide', 'google-ads-for-general-contractors', 'good-cost-per-lead-for-general-contractors', 'follow-up-contractor-leads', 'contractor-marketing-budget'],
+    relatedArticleIds: ['general-contractor-marketing-guide', 'google-ads-for-general-contractors', 'good-cost-per-lead-for-general-contractors', 'follow-up-contractor-leads', 'contractor-marketing-budget', 'choosing-a-marketing-agency-for-contractors'],
     translations: {
       'en-US': {
         locale: 'en-US', slug: 'contractor-marketing-roi', path: '/blog/contractor-marketing-roi',
@@ -1928,6 +1928,153 @@ export const articles: Article[] = [
           {
             question: 'Qual plataforma dá mais controle de segmentação ao contractor?',
             answer: 'O Google Ads dá controle mais direto. Uma campanha de Search permite escolher palavras-chave, localização, orçamento e o texto do anúncio, e a campanha de meta de lead do Local Services permite definir categorias de serviço, área de atuação e um custo-alvo por lead dentro do próprio Google Ads. O Angi Leads permite definir o tipo de trabalho e a área geográfica atendida, mas não tem mecanismo de lance e não dá controle sobre quantos outros contractors são correspondidos à mesma solicitação.',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'choosing-a-marketing-agency-for-contractors',
+    status: 'published',
+    featuredImage: '/images/blog/choosing-a-marketing-agency-for-contractors.svg',
+    relatedArticleIds: [
+      'general-contractor-marketing-guide',
+      'contractor-marketing-budget',
+      'contractor-marketing-roi',
+      'good-cost-per-lead-for-general-contractors',
+      'qualified-contractor-leads',
+      'angi-leads-vs-google-ads-for-contractors',
+    ],
+    translations: {
+      'en-US': {
+        locale: 'en-US',
+        slug: 'choosing-a-marketing-agency-for-contractors',
+        path: '/blog/choosing-a-marketing-agency-for-contractors',
+        title: 'How to Choose a Marketing Agency for Your Construction Company',
+        seoTitle: 'How to Choose a Marketing Agency for Your Construction Company',
+        metaDescription: 'A practical framework for evaluating a marketing agency for a general contracting business, covering pricing models, account ownership, contract terms, and red flags.',
+        excerpt: 'How to evaluate a marketing agency for a general contracting business, from pricing models and account ownership to contract terms, red flags, and the questions worth asking before signing.',
+        category: 'Contractor Growth',
+        primaryKeyword: 'how to choose a marketing agency for general contractors',
+        secondaryKeywords: [
+          'marketing agency for general contractors',
+          'contractor marketing agency',
+          'hiring a marketing agency for a construction company',
+          'questions to ask a marketing agency',
+          'construction marketing agency pricing',
+          'in-house marketer vs marketing agency',
+          'signs a marketing agency is not working',
+          'contractor marketing agency contract',
+          'best marketing agency for contractors',
+          'marketing agency red flags for contractors',
+        ],
+        featuredImageAlt: 'Checklist for evaluating a marketing agency for a general contracting business',
+        publishedDate: '2026-11-11',
+        updatedDate: '2026-11-11',
+        readingTime: 17,
+        canonicalUrl: `${SITE_URL}/blog/choosing-a-marketing-agency-for-contractors`,
+        faq: [
+          {
+            question: 'How much does a marketing agency cost for a general contractor?',
+            answer: 'There is no single market rate. Agencies price contractor marketing work through flat monthly retainers, a percentage of ad spend, performance-based fees tied to leads or appointments, or a one-time project fee for a specific deliverable such as a website. The right question is not what an agency charges in isolation, but what it charges relative to the signed revenue and customer acquisition cost it produces, which can only be evaluated after a full sales cycle of real campaign data.',
+          },
+          {
+            question: 'Should a general contractor hire an agency or build an in-house marketing team?',
+            answer: 'It depends on budget, growth stage, and how much marketing work needs to happen at once. An agency typically brings broader platform expertise and faster setup across multiple channels without a full-time salary commitment. An in-house marketer offers more day-to-day availability and institutional knowledge of the business, but usually covers fewer specialties and creates a single point of failure if that person leaves. Many established contractors run a hybrid model: an in-house coordinator who manages CRM and content, paired with an agency for paid media and technical SEO.',
+          },
+          {
+            question: 'What should be included in a contractor marketing agency service package?',
+            answer: 'A complete package typically includes campaign management for the channels in scope, such as Google Ads or local SEO, a maintained and conversion-focused website, call tracking and lead tracking setup, monthly reporting tied to leads and signed revenue rather than only clicks and impressions, and a defined point of contact. Services like content writing, review management, and CRM configuration are common additions, but not every agency includes them by default, so scope should be confirmed in writing before signing.',
+          },
+          {
+            question: 'Who should own the Google Ads account and the website, the contractor or the agency?',
+            answer: 'The contractor should own the Google Ads account, the Google Business Profile, the website domain and hosting, and the analytics property, regardless of which agency manages them day to day. Google Ads supports manager account access specifically so an agency can run campaigns without owning the underlying account. An agency that insists on owning these assets in its own name creates a lock-in risk: switching agencies later can mean losing campaign history, website control, or the business listing itself.',
+          },
+          {
+            question: 'How long should a contractor wait before judging a new marketing agency?',
+            answer: 'Long enough to cover a full sales cycle for the services being marketed, not just the first invoice. Paid campaigns typically need four to eight weeks before lead volume and quality stabilize, and the contractor needs additional time after that to move leads through appointments, estimates, and signed contracts. Judging an agency on raw lead count after two weeks, before any of those leads have had time to become a signed project, usually produces the wrong conclusion in either direction.',
+          },
+          {
+            question: 'What are the biggest red flags when evaluating a contractor marketing agency?',
+            answer: 'Common red flags include refusing to let the contractor own the ad account, website, or Google Business Profile; reporting only on clicks and impressions instead of leads and signed revenue; guaranteeing a specific number of leads or a first-page ranking, which no legitimate agency can promise; requiring a long-term contract with no visible results to point to; and being unable to produce a reference client willing to speak directly about results.',
+          },
+          {
+            question: 'Should a contractor sign a long-term contract with a marketing agency?',
+            answer: 'A short initial term, generally three to six months, gives both sides enough time to evaluate results across a real sales cycle without locking the business into a full year before any data exists. Longer terms can make sense once the relationship is established and producing measurable signed revenue, but a brand-new agency relationship with a twelve-month minimum and no easy exit clause shifts risk heavily toward the contractor.',
+          },
+          {
+            question: 'What questions should a contractor ask before hiring a marketing agency?',
+            answer: 'Useful questions include which specific services are included in the fee, who owns the ad accounts and website after the engagement ends, how leads are tracked and reported, whether reporting ties back to signed revenue or only to clicks and impressions, what the minimum contract term and cancellation notice are, whether the agency has direct experience with general contractors or construction companies, and whether a current client in a similar trade is willing to serve as a reference.',
+          },
+          {
+            question: 'What is the difference between a contractor-specific agency and a general marketing agency?',
+            answer: 'A contractor-specific agency usually understands service-area targeting, licensing and permit language, seasonal demand patterns, and the long sales cycles typical of construction projects without needing to be educated on the industry first. A general marketing agency may bring broader creative resources or platform certifications, but often needs a longer ramp-up period to understand how a construction business actually sells. Neither type is automatically better; the relevant question is whether the agency can show results with businesses that sell the way a general contractor sells.',
+          },
+        ],
+      },
+      'pt-BR': {
+        locale: 'pt-BR',
+        slug: 'como-escolher-uma-agencia-de-marketing-para-general-contractors',
+        path: '/br/blog/como-escolher-uma-agencia-de-marketing-para-general-contractors',
+        title: 'Como Escolher uma Agência de Marketing para General Contractors',
+        seoTitle: 'Como Escolher uma Agência de Marketing para General Contractors',
+        metaDescription: 'Um framework prático para avaliar uma agência de marketing para general contractors, cobrindo modelos de cobrança, propriedade das contas, termos de contrato e sinais de alerta.',
+        excerpt: 'Como avaliar uma agência de marketing para general contractors, dos modelos de cobrança e propriedade das contas aos termos de contrato, sinais de alerta e perguntas que vale fazer antes de assinar.',
+        category: 'Crescimento para Contractors',
+        primaryKeyword: 'como escolher uma agência de marketing para general contractors',
+        secondaryKeywords: [
+          'agência de marketing para general contractors',
+          'agência de marketing para contractors',
+          'contratar agência de marketing para construtora',
+          'perguntas para fazer a uma agência de marketing',
+          'preço de agência de marketing para construção',
+          'marketing interno vs agência de marketing',
+          'sinais de que a agência de marketing não está funcionando',
+          'contrato com agência de marketing para contractors',
+          'melhor agência de marketing para contractors',
+          'sinais de alerta de agência de marketing',
+        ],
+        featuredImageAlt: 'Checklist para avaliar uma agência de marketing para general contractors',
+        publishedDate: '2026-11-11',
+        updatedDate: '2026-11-11',
+        readingTime: 17,
+        canonicalUrl: `${SITE_URL}/br/blog/como-escolher-uma-agencia-de-marketing-para-general-contractors`,
+        faq: [
+          {
+            question: 'Quanto custa uma agência de marketing para um general contractor?',
+            answer: 'Não existe uma tarifa única de mercado. Agências cobram o trabalho de marketing para contractors por retainer mensal fixo, por percentual do investimento em anúncios, por taxa de performance ligada a leads ou agendamentos, ou por projeto fechado para uma entrega específica como um site. A pergunta certa não é quanto a agência cobra isoladamente, e sim quanto ela cobra em relação à receita assinada e ao custo de aquisição que ela gera, o que só pode ser avaliado depois de um ciclo de vendas completo com dados reais de campanha.',
+          },
+          {
+            question: 'O general contractor deve contratar uma agência ou montar um time interno de marketing?',
+            answer: 'Depende do orçamento, do estágio de crescimento do negócio e de quanto trabalho de marketing precisa acontecer de uma vez. Uma agência costuma trazer conhecimento mais amplo de plataforma e configuração mais rápida em vários canais, sem o compromisso de um salário em tempo integral. Um marketeiro interno oferece mais disponibilidade no dia a dia e conhecimento institucional do negócio, mas geralmente cobre menos especialidades e cria um ponto único de falha se essa pessoa sair. Muitos contractors já estabelecidos rodam um modelo híbrido: um coordenador interno que administra CRM e conteúdo, junto com uma agência para mídia paga e SEO técnico.',
+          },
+          {
+            question: 'O que deveria estar incluso no pacote de serviços de uma agência de marketing para contractors?',
+            answer: 'Um pacote completo normalmente inclui gestão de campanha para os canais contratados, como Google Ads ou SEO local, um site mantido e focado em conversão, configuração de call tracking e rastreamento de leads, relatório mensal ligado a leads e receita assinada, não só a cliques e impressões, e um ponto de contato definido. Serviços como redação de conteúdo, gestão de avaliações e configuração de CRM são adições comuns, mas nem toda agência os inclui por padrão, então o escopo deve ser confirmado por escrito antes de assinar.',
+          },
+          {
+            question: 'Quem deve ser o proprietário da conta do Google Ads e do site, o contractor ou a agência?',
+            answer: 'O contractor deve ser o proprietário da conta do Google Ads, do Google Business Profile, do domínio e da hospedagem do site, e da propriedade de analytics, independentemente de qual agência administra isso no dia a dia. O próprio Google Ads tem acesso por conta de gerenciamento justamente para que uma agência administre campanhas sem ser a proprietária da conta subjacente. Uma agência que insiste em ser a proprietária desses ativos em nome próprio cria um risco de aprisionamento: trocar de agência depois pode significar perder o histórico de campanha, o controle do site, ou a própria ficha do negócio.',
+          },
+          {
+            question: 'Quanto tempo o contractor deve esperar antes de avaliar uma nova agência de marketing?',
+            answer: 'Tempo suficiente para cobrir um ciclo de vendas completo dos serviços anunciados, não só a primeira fatura. Campanhas pagas geralmente precisam de quatro a oito semanas para o volume e a qualidade dos leads se estabilizarem, e o contractor precisa de tempo adicional depois disso para mover esses leads por agendamentos, estimates e contratos assinados. Avaliar uma agência pelo número bruto de leads depois de duas semanas, antes de qualquer um desses leads ter tido tempo de se tornar um projeto assinado, costuma produzir a conclusão errada nos dois sentidos.',
+          },
+          {
+            question: 'Quais são os maiores sinais de alerta ao avaliar uma agência de marketing para contractors?',
+            answer: 'Sinais de alerta comuns incluem recusar deixar o contractor ser o proprietário da conta de anúncios, do site ou do Google Business Profile; reportar só cliques e impressões em vez de leads e receita assinada; garantir um número específico de leads ou uma posição de primeira página, o que nenhuma agência legítima pode prometer; exigir um contrato de longo prazo sem nenhum resultado visível para apontar; e não conseguir apresentar um cliente de referência disposto a falar diretamente sobre os resultados.',
+          },
+          {
+            question: 'O contractor deve assinar um contrato de longo prazo com uma agência de marketing?',
+            answer: 'Um prazo inicial curto, geralmente de três a seis meses, dá tempo suficiente para os dois lados avaliarem resultados ao longo de um ciclo de vendas real sem travar o negócio num ano inteiro antes de existir qualquer dado. Prazos mais longos podem fazer sentido depois que a relação está estabelecida e produzindo receita assinada mensurável, mas uma relação nova de agência com mínimo de doze meses e sem cláusula de saída fácil desloca o risco fortemente para o lado do contractor.',
+          },
+          {
+            question: 'Que perguntas o contractor deve fazer antes de contratar uma agência de marketing?',
+            answer: 'Perguntas úteis incluem quais serviços específicos estão incluídos na taxa, quem é o proprietário das contas de anúncio e do site depois que o contrato terminar, como os leads são rastreados e reportados, se o relatório se conecta à receita assinada ou só a cliques e impressões, quais são o prazo mínimo de contrato e o aviso de cancelamento, se a agência tem experiência direta com general contractors ou empresas de construção, e se um cliente atual de um ramo parecido está disposto a servir de referência.',
+          },
+          {
+            question: 'Qual é a diferença entre uma agência especializada em contractors e uma agência de marketing generalista?',
+            answer: 'Uma agência especializada em contractors geralmente já entende segmentação por área de atuação, linguagem de licenciamento e permit, padrões sazonais de demanda e os ciclos de venda longos típicos de projetos de construção, sem precisar ser educada sobre o setor primeiro. Uma agência generalista pode trazer recursos criativos mais amplos ou certificações de plataforma, mas costuma precisar de um período de adaptação mais longo para entender como um negócio de construção de fato vende. Nenhum dos dois tipos é automaticamente melhor; a pergunta relevante é se a agência consegue mostrar resultados com negócios que vendem do jeito que um general contractor vende.',
           },
         ],
       },
