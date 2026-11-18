@@ -898,6 +898,7 @@ export const articles: Article[] = [
       'follow-up-contractor-leads',
       'contractor-marketing-roi',
       'contractor-website-essentials',
+      'google-ads-budget-for-general-contractors',
     ],
     translations: {
       'en-US': {
@@ -1051,6 +1052,8 @@ export const articles: Article[] = [
       'good-cost-per-lead-for-general-contractors',
       'contractor-marketing-roi',
       'google-ads-for-general-contractors',
+      'google-ads-budget-for-general-contractors',
+      'choosing-a-marketing-agency-for-contractors',
     ],
     translations: {
       'en-US': {
@@ -2075,6 +2078,145 @@ export const articles: Article[] = [
           {
             question: 'Qual é a diferença entre uma agência especializada em contractors e uma agência de marketing generalista?',
             answer: 'Uma agência especializada em contractors geralmente já entende segmentação por área de atuação, linguagem de licenciamento e permit, padrões sazonais de demanda e os ciclos de venda longos típicos de projetos de construção, sem precisar ser educada sobre o setor primeiro. Uma agência generalista pode trazer recursos criativos mais amplos ou certificações de plataforma, mas costuma precisar de um período de adaptação mais longo para entender como um negócio de construção de fato vende. Nenhum dos dois tipos é automaticamente melhor; a pergunta relevante é se a agência consegue mostrar resultados com negócios que vendem do jeito que um general contractor vende.',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'google-ads-budget-for-general-contractors',
+    status: 'published',
+    featuredImage: '/images/blog/google-ads-budget-for-general-contractors.svg',
+    relatedArticleIds: [
+      'general-contractor-marketing-guide',
+      'google-ads-for-general-contractors',
+      'contractor-marketing-budget',
+      'good-cost-per-lead-for-general-contractors',
+      'best-google-ads-keywords-for-general-contractors',
+      'google-ads-vs-local-services-ads',
+    ],
+    translations: {
+      'en-US': {
+        locale: 'en-US',
+        slug: 'google-ads-budget-for-general-contractors',
+        path: '/blog/google-ads-budget-for-general-contractors',
+        title: 'How Much Should General Contractors Spend on Google Ads?',
+        seoTitle: 'How Much Should General Contractors Spend on Google Ads?',
+        metaDescription: 'How Google Ads budgets actually work for general contractors: daily vs monthly limits, Smart Bidding and budget changes, Search Lost IS (budget), and how to set a budget by service.',
+        excerpt: 'A practical breakdown of how Google Ads budgets work for general contractors: daily and monthly spending limits, how Smart Bidding reacts to budget changes, the Search Lost IS (budget) signal, and how to split and scale budget by service.',
+        category: 'Google Ads',
+        primaryKeyword: 'how much should general contractors spend on Google Ads',
+        secondaryKeywords: [
+          'Google Ads budget for contractors',
+          'contractor Google Ads daily budget',
+          'how much to spend on Google Ads for a construction company',
+          'Google Ads monthly spending limit',
+          'Search Lost IS budget',
+          'Smart Bidding learning status budget',
+          'Performance Max budget for contractors',
+          'Local Services Ads budget',
+          'Google Ads budget by service',
+          'minimum Google Ads budget for general contractors',
+        ],
+        featuredImageAlt: 'Daily and monthly Google Ads budget math for a general contractor campaign',
+        publishedDate: '2026-11-18',
+        updatedDate: '2026-11-18',
+        readingTime: 14,
+        canonicalUrl: `${SITE_URL}/blog/google-ads-budget-for-general-contractors`,
+        faq: [
+          {
+            question: 'How much should a general contractor spend on Google Ads?',
+            answer: 'There is no universal number. The right figure comes from working backward from your target customer acquisition cost and lead-to-sale rate, the same math covered in the cost-per-lead and marketing-budget guides, then converting that into a daily number using the actual cost-per-click your own account sees, not a published industry average. Once a budget is set, the Search Lost IS (budget) metric tells you whether that number is actually the thing limiting your results.',
+          },
+          {
+            question: 'What is the difference between a Google Ads budget and a bid?',
+            answer: 'A budget is the ceiling on how much you are willing to spend over a day or month. A bid, or a bid strategy target such as target CPA or target ROAS under Smart Bidding, is how much you are willing to pay for a given click or conversion. Google Ads Help describes manual CPC bidding as letting you "set the highest amount that you\'re willing to pay for a click on your ad." A campaign can have plenty of budget left and still not spend it if the bid or bid strategy is not competitive enough to win auctions.',
+          },
+          {
+            question: 'Can Google Ads spend more than my daily budget?',
+            answer: 'Yes, on individual days. According to Google Ads Help, Google optimizes spend toward days with more opportunity and may spend up to your daily spending limit, which is "two times your average daily budget for most campaigns," on any single day. Across a full month, spend is capped by the monthly spending limit, "30.4 times your average daily budget for most campaigns." A campaign spending double its daily budget on one day is not a billing error by itself; it is the averaging mechanism working as documented.',
+          },
+          {
+            question: 'Does raising my Google Ads budget restart the Smart Bidding learning period?',
+            answer: 'No, as of Google\'s current documentation. Google Ads Help states that "updates to budgets, ROI targets, or targeting settings take effect in the next auction, but never trigger \'Learning\' status." Learning status, which never lasts more than seven days, is triggered specifically by a new or reactivated bid strategy, a change in which campaigns, ad groups, or keywords are included, or a significant change to the conversion goals being optimized toward, not by a budget edit on its own.',
+          },
+          {
+            question: 'How do I know if my Google Ads budget is too low for a contractor campaign?',
+            answer: 'Check Search Lost IS (budget) at the campaign level, defined by Google Ads Help as "the percentage of time that your ads weren\'t shown on the Search Network due to insufficient budget." A high number there means budget is the real constraint and raising it can capture more of the demand already searching for your services. A high Search Lost IS (rank) instead means the problem is Ad Rank, from bid or quality, not budget, and spending more will not fix it on its own.',
+          },
+          {
+            question: 'Should a general contractor run one Google Ads budget or split it by service?',
+            answer: 'Splitting budget by campaign, one per major service such as kitchen remodeling, bathroom remodeling, or home additions, is the practical way to prevent a single high-volume service from quietly consuming the entire account\'s spend before the lower-volume, sometimes higher-margin services get a chance to show. This is an account-structure decision, not a documented Google rule, but it mirrors the campaign segmentation already covered in the Google Ads for general contractors guide.',
+          },
+          {
+            question: 'How does budget work differently for Local Services lead-goal campaigns inside Google Ads?',
+            answer: 'Google has been migrating Local Services Ads out of its standalone dashboard into Google Ads, where it runs as a Performance Max campaign built around a pay-per-lead goal. According to Google Ads Help, that migration began in August 2026 for selected home and storefront categories in the United States and continues rolling out through 2027. Inside that structure, the budget you set caps total spend on valid leads, charged when a homeowner calls or messages, rather than capping clicks the way a traditional Search campaign budget does.',
+          },
+          {
+            question: 'When should a general contractor increase or decrease Google Ads budget?',
+            answer: 'Increase gradually when Search Lost IS (budget) is consistently high and the campaign is already hitting its target cost per qualified lead or customer acquisition cost, since that combination means profitable demand is being left on the table. Decrease, or at least pause scaling, when customer acquisition cost has been above target for a full sales cycle, when Search Lost IS (rank) rather than budget is the dominant lost-impression cause, or when project capacity is already full. For the broader question of how this fits inside total marketing spend, see the contractor marketing budget guide.',
+          },
+        ],
+      },
+      'pt-BR': {
+        locale: 'pt-BR',
+        slug: 'orcamento-de-google-ads-para-general-contractors',
+        path: '/br/blog/orcamento-de-google-ads-para-general-contractors',
+        title: 'Quanto um General Contractor Deve Investir no Google Ads?',
+        seoTitle: 'Quanto um General Contractor Deve Investir no Google Ads?',
+        metaDescription: 'Como o orçamento do Google Ads realmente funciona para general contractors: limite diário e mensal, Smart Bidding e mudanças de orçamento, Search Lost IS (budget) e como dividir o orçamento por serviço.',
+        excerpt: 'Um panorama prático de como o orçamento do Google Ads funciona para general contractors: limites diário e mensal de gasto, como o Smart Bidding reage a mudanças de orçamento, o sinal do Search Lost IS (budget) e como dividir e escalar o orçamento por serviço.',
+        category: 'Google Ads',
+        primaryKeyword: 'quanto investir em Google Ads para general contractors',
+        secondaryKeywords: [
+          'orçamento de Google Ads para contractors',
+          'orçamento diário de Google Ads para contractor',
+          'quanto gastar em Google Ads para construtora',
+          'limite mensal de gasto do Google Ads',
+          'Search Lost IS budget',
+          'status de aprendizado do Smart Bidding e orçamento',
+          'orçamento de Performance Max para contractors',
+          'orçamento do Local Services Ads',
+          'orçamento de Google Ads por serviço',
+          'orçamento mínimo de Google Ads para general contractors',
+        ],
+        featuredImageAlt: 'Matemática do orçamento diário e mensal do Google Ads para a campanha de um general contractor',
+        publishedDate: '2026-11-18',
+        updatedDate: '2026-11-18',
+        readingTime: 14,
+        canonicalUrl: `${SITE_URL}/br/blog/orcamento-de-google-ads-para-general-contractors`,
+        faq: [
+          {
+            question: 'Quanto um general contractor deve investir no Google Ads?',
+            answer: 'Não existe um número universal. O valor certo nasce de partir do custo de aquisição de cliente desejado e da taxa de conversão de lead em venda, a mesma conta dos guias de custo por lead e de orçamento de marketing, e depois converter isso num número diário usando o custo por clique real da sua própria conta, nunca uma média de mercado publicada. Depois de definido, a métrica Search Lost IS (budget) mostra se esse número é de fato o que está limitando seu resultado.',
+          },
+          {
+            question: 'Qual é a diferença entre orçamento e lance no Google Ads?',
+            answer: 'O orçamento é o teto de quanto você está disposto a gastar num dia ou num mês. O lance, ou a meta de uma estratégia de Smart Bidding como CPA-alvo ou ROAS-alvo, é quanto você está disposto a pagar por um clique ou conversão específica. A Central de Ajuda do Google Ads descreve o lance manual de CPC como a forma de "definir o valor máximo que você está disposto a pagar por um clique no seu anúncio". Uma campanha pode ter orçamento de sobra e ainda assim não gastá-lo se o lance ou a estratégia de lance não for competitiva o suficiente para ganhar os leilões.',
+          },
+          {
+            question: 'O Google Ads pode gastar mais do que meu orçamento diário?',
+            answer: 'Sim, em dias específicos. Segundo a Central de Ajuda do Google Ads, o Google otimiza o gasto para os dias com mais oportunidade e pode gastar até o limite diário de gasto, que é "duas vezes o seu orçamento diário médio para a maioria das campanhas", num único dia. No mês inteiro, o gasto é limitado pelo limite mensal, "30,4 vezes o seu orçamento diário médio para a maioria das campanhas". Uma campanha que gasta o dobro do orçamento diário num dia não é, por si só, um erro de cobrança: é o mecanismo de média funcionando como documentado.',
+          },
+          {
+            question: 'Aumentar o orçamento do Google Ads reinicia o período de aprendizado do Smart Bidding?',
+            answer: 'Não, segundo a documentação atual do Google. A Central de Ajuda do Google Ads afirma que "atualizações de orçamento, metas de retorno ou configurações de segmentação entram em vigor no próximo leilão, mas nunca disparam o status \'Learning\'" (tradução livre). O status Learning, que nunca dura mais de sete dias, é disparado especificamente por uma estratégia de lance nova ou reativada, por uma mudança em quais campanhas, grupos de anúncios ou palavras-chave estão incluídos, ou por uma mudança significativa nas metas de conversão otimizadas, não por uma edição de orçamento isolada.',
+          },
+          {
+            question: 'Como saber se o orçamento do Google Ads está baixo demais para a campanha de um contractor?',
+            answer: 'Confira o Search Lost IS (budget) no nível da campanha, definido pela Central de Ajuda do Google Ads como "a porcentagem de tempo em que seus anúncios não foram exibidos na Rede de Pesquisa por falta de orçamento" (tradução livre). Um número alto ali indica que o orçamento é de fato a restrição, e aumentá-lo pode capturar mais da demanda que já está procurando pelos seus serviços. Já um Search Lost IS (rank) alto indica que o problema é o Ad Rank, por lance ou qualidade, não orçamento, e gastar mais não resolve isso por si só.',
+          },
+          {
+            question: 'O general contractor deve rodar um orçamento único ou dividir por serviço?',
+            answer: 'Dividir o orçamento por campanha, uma para cada serviço principal como reforma de cozinha, reforma de banheiro ou home addition, é o jeito prático de evitar que um serviço de alto volume consuma silenciosamente o orçamento da conta inteira antes que os serviços de menor volume, às vezes de margem maior, tenham chance de aparecer. Isso é uma decisão de estrutura de conta, não uma regra documentada pelo Google, mas segue a mesma segmentação de campanha já coberta no guia de Google Ads para general contractors.',
+          },
+          {
+            question: 'Como o orçamento funciona de forma diferente nas campanhas de meta de lead do Local Services dentro do Google Ads?',
+            answer: 'O Google vem migrando o Local Services Ads do seu painel independente para dentro do Google Ads, onde passa a rodar como uma campanha Performance Max construída em torno de uma meta de pagamento por lead. Segundo a Central de Ajuda do Google Ads, essa migração começou em agosto de 2026 para categorias selecionadas de serviços residenciais e com loja física nos Estados Unidos, e continua se expandindo até 2027. Dentro dessa estrutura, o orçamento definido limita o gasto total com leads válidos, cobrados quando o homeowner liga ou envia mensagem, em vez de limitar cliques como faz o orçamento de uma campanha de Search tradicional.',
+          },
+          {
+            question: 'Quando o general contractor deve aumentar ou diminuir o orçamento do Google Ads?',
+            answer: 'Aumente gradualmente quando o Search Lost IS (budget) estiver consistentemente alto e a campanha já estiver batendo a meta de custo por lead qualificado ou custo de aquisição de cliente, porque essa combinação significa que existe demanda rentável sendo deixada de lado. Diminua, ou pelo menos pause o aumento, quando o custo de aquisição de cliente estiver acima da meta por um ciclo de vendas completo, quando o Search Lost IS (rank), e não o orçamento, for a causa dominante de impressões perdidas, ou quando a capacidade de produção já estiver no limite. Para a pergunta mais ampla de como isso se encaixa no orçamento total de marketing, veja o guia de orçamento de marketing para contractors.',
           },
         ],
       },
