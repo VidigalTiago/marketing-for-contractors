@@ -11,6 +11,8 @@ const clients = [
   { name: 'Top GM Construction', logo: '/clients/top-gm-construction.png' },
   { name: 'Forma Construction', logo: '/logos/forma-construction.webp' },
   { name: 'Alyssa Flooring', logo: '/clients/alyssa-flooring.svg' },
+  { name: 'Milher Fence & Construction', logo: '/clients/milher-fence.svg' },
+  { name: 'Summer Pool Builders', logo: '/clients/summer-pool-builders.svg' },
 ]
 
 const VISIBLE = 4
