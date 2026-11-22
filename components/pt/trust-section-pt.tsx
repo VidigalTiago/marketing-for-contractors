@@ -43,8 +43,9 @@ export default function TrustSectionPT() {
                   <Image
                     src={client.logo}
                     alt={client.name}
-                    width={80}
+                    width={320}
                     height={80}
+                    sizes="(min-width: 1024px) 240px, 50vw"
                     className="h-12 w-auto object-contain grayscale opacity-70 hover:opacity-100 transition-opacity duration-300"
                   />
                   <span className="text-[9px] font-semibold text-[#D0D5DD] tracking-wide text-center uppercase">
