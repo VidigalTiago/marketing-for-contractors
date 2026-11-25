@@ -559,6 +559,7 @@ export const articles: Article[] = [
       'google-ads-vs-local-services-ads',
       'cost-per-lead-contractors',
       'follow-up-contractor-leads',
+      'contractor-google-ads-not-generating-leads',
     ],
     translations: {
       'en-US': {
@@ -2217,6 +2218,145 @@ export const articles: Article[] = [
           {
             question: 'Quando o general contractor deve aumentar ou diminuir o orçamento do Google Ads?',
             answer: 'Aumente gradualmente quando o Search Lost IS (budget) estiver consistentemente alto e a campanha já estiver batendo a meta de custo por lead qualificado ou custo de aquisição de cliente, porque essa combinação significa que existe demanda rentável sendo deixada de lado. Diminua, ou pelo menos pause o aumento, quando o custo de aquisição de cliente estiver acima da meta por um ciclo de vendas completo, quando o Search Lost IS (rank), e não o orçamento, for a causa dominante de impressões perdidas, ou quando a capacidade de produção já estiver no limite. Para a pergunta mais ampla de como isso se encaixa no orçamento total de marketing, veja o guia de orçamento de marketing para contractors.',
+          },
+        ],
+      },
+    },
+  },
+  {
+    id: 'contractor-google-ads-not-generating-leads',
+    status: 'published',
+    featuredImage: '/images/blog/contractor-google-ads-not-generating-leads.svg',
+    relatedArticleIds: [
+      'general-contractor-marketing-guide',
+      'google-ads-for-general-contractors',
+      'google-ads-budget-for-general-contractors',
+      'best-google-ads-keywords-for-general-contractors',
+      'google-ads-vs-local-services-ads',
+      'good-cost-per-lead-for-general-contractors',
+    ],
+    translations: {
+      'en-US': {
+        locale: 'en-US',
+        slug: 'contractor-google-ads-not-generating-leads',
+        path: '/blog/contractor-google-ads-not-generating-leads',
+        title: 'Why Your Contractor Google Ads Are Not Generating Leads',
+        seoTitle: 'Why Your Contractor Google Ads Are Not Generating Leads',
+        metaDescription: 'A diagnostic guide to why a contractor Google Ads campaign stops producing leads: ad eligibility, Limited by budget, Quality Score, invalid clicks, and broken conversion tracking.',
+        excerpt: 'When Google Ads produces clicks but few or no leads, the cause is usually one of five layers: ad eligibility, budget limits, Quality Score, invalid clicks, or broken conversion tracking. Here is how to check each one, in order.',
+        category: 'Google Ads',
+        primaryKeyword: 'why are my google ads not generating leads',
+        secondaryKeywords: [
+          'google ads not generating leads for contractors',
+          'why is my google ads campaign not working',
+          'google ads no leads general contractor',
+          'google ads ad not showing',
+          'google ads quality score low',
+          'google ads conversion tracking not working',
+          'google ads limited by budget',
+          'google ads invalid clicks',
+          'google ads negative keywords',
+          'contractor PPC troubleshooting',
+        ],
+        featuredImageAlt: 'Diagnostic checklist for a contractor Google Ads campaign generating no leads',
+        publishedDate: '2026-11-25',
+        updatedDate: '2026-11-25',
+        readingTime: 15,
+        canonicalUrl: `${SITE_URL}/blog/contractor-google-ads-not-generating-leads`,
+        faq: [
+          {
+            question: 'Why would Google Ads show clicks and spend budget but generate zero leads?',
+            answer: 'Clicks and leads sit at different layers that each fail in a different way: whether the ad is actually eligible to show for the searches it targets, whether budget is capping impressions before the keyword or page ever gets evaluated, whether Quality Score is pushing the ad into fewer or worse auction positions, whether the clicks arriving are invalid or simply irrelevant, and whether conversion tracking is correctly recording leads that are already happening. A campaign spending its full budget daily with reasonable click volume and zero recorded leads is almost always a tracking problem, not a demand problem.',
+          },
+          {
+            question: 'How do I know if my Google Ads are actually showing at all?',
+            answer: 'Check the ad status column in the account. According to Google Ads Help, an ad marked Eligible "complies with the Google Ads policies, so it can be shown to all audiences," while Eligible (limited) means the ad "can run, but not in all situations because of policy restrictions, such as trademark use or gambling-related content." Under review "is still being reviewed and will be eligible to serve if we determine that it complies with our policies," a Disapproved ad "can\'t run because its content or its destination violates Google Ads policy," and Not eligible means the ad "isn\'t serving because the campaign is paused, removed, ended, or pending or the ad group is paused, removed, or incomplete." Any status other than a clean Eligible is worth investigating before looking anywhere else.',
+          },
+          {
+            question: 'Can a low budget stop Google Ads from generating leads?',
+            answer: 'Yes, but it shows up as fewer impressions, not as leads that happen and disappear. Google Ads Help describes the "Limited by budget" campaign status as a signal that the campaign "is underperforming due to a limited budget," and the fix is to review the recommended budget Google Ads surfaces for that campaign. The companion metric, covered in the Google Ads budget guide, is Search Lost IS (budget), which isolates the percentage of auctions lost specifically to spend, as opposed to Search Lost IS (rank), which points to a bidding or relevance problem instead.',
+          },
+          {
+            question: 'Does Quality Score affect how many leads a contractor gets from Google Ads?',
+            answer: 'Quality Score does not directly create or block a lead, but it shapes how many auctions the ad actually wins and at what cost. Google Ads Help defines the score as three components: expected clickthrough rate, "the likelihood that your ad will be clicked when shown"; ad relevance, "how closely your ad matches the intent behind a user\'s search"; and landing page experience, "how relevant and useful your landing page is to people who click your ad." A low score on any of the three raises the cost of competing in the same auctions, which can price a contractor out of clicks that would have become leads.',
+          },
+          {
+            question: 'Are invalid clicks the reason my Google Ads campaign is not converting?',
+            answer: 'Usually not, precisely because Google already removes them. Google Ads Help defines invalid traffic as "traffic that doesn\'t represent genuine interest in your business," covering non-human clicks and accidental clicks from poor placement, and states that invalid activity "detected before the end of the month is automatically removed from your billing and campaign reports, so no refunds are necessary." Invalid clicks caught after billing still result in a credit on the next invoice. A contractor seeing clicks but no leads is far more often dealing with valid clicks from the wrong audience, fixed with negative keywords, than with invalid traffic Google has already filtered out.',
+          },
+          {
+            question: 'My team is getting phone calls from Google Ads customers, but the account shows zero conversions. What is wrong?',
+            answer: 'This is almost always a tracking configuration problem, not a lack of leads. Google Ads Help\'s sitewide tagging guidance points to specific causes: the Google tag needs to be placed "in the <head> section of every page on your website," auto-tagging needs to be enabled so Google can "automatically add the GCLID and AUID parameters to your landing page after an ad click," and "cookies need to be available in the browser when a customer converts." Installing "multiple Google tags or Google Tag Manager containers... on the same page" is also flagged as a common source of conflicts. A call that happens off a number that was never connected to the tracked landing page will never show up as a conversion, no matter how correctly everything else is installed.',
+          },
+          {
+            question: 'Could the landing page be the reason a Google Ads campaign is not generating leads?',
+            answer: 'Yes. Google Ads Help\'s own guidance on optimizing ads and landing pages states that "when someone clicks on your ad, they expect to land on a page that\'s relevant to what they saw in your ad," and recommends a page that "closely matches your ad and keywords." It also notes that "ease of navigation is something users value even more on mobile websites." A click for a specific service that lands on a generic homepage, with no mention of that service and a contact form buried far down the page, works against the ad instead of with it.',
+          },
+          {
+            question: 'What is the right order to diagnose a Google Ads account that is not producing leads?',
+            answer: 'Start with whether the ad is actually eligible to show, since nothing downstream matters if it is not. Then check Search Lost IS (budget) versus Search Lost IS (rank) to see whether spend or competitiveness is the constraint. From there, review the search terms report for irrelevant queries that need negative keywords, confirm the conversion tag is firing correctly with Tag Assistant rather than just installed, and only then look at the landing page itself. Checking budget or the landing page before confirming the ad is even showing and the tag is even tracking is the most common way contractors waste time chasing the wrong fix.',
+          },
+        ],
+      },
+      'pt-BR': {
+        locale: 'pt-BR',
+        slug: 'por-que-o-google-ads-nao-esta-gerando-leads-para-contractors',
+        path: '/br/blog/por-que-o-google-ads-nao-esta-gerando-leads-para-contractors',
+        title: 'Por Que o Google Ads do Seu Contractor Não Está Gerando Leads',
+        seoTitle: 'Por Que o Google Ads do Seu Contractor Não Está Gerando Leads',
+        metaDescription: 'Um guia de diagnóstico para quando a campanha de Google Ads de um contractor para de gerar leads: elegibilidade do anúncio, Limited by budget, Quality Score, cliques inválidos e rastreamento de conversão quebrado.',
+        excerpt: 'Quando o Google Ads gera clique mas poucos ou nenhum lead, a causa geralmente está numa de cinco camadas: elegibilidade do anúncio, limite de orçamento, Quality Score, cliques inválidos ou rastreamento de conversão quebrado. Veja como checar cada uma, em ordem.',
+        category: 'Google Ads',
+        primaryKeyword: 'por que meu google ads não está gerando leads',
+        secondaryKeywords: [
+          'google ads não gera leads para contractors',
+          'por que minha campanha de google ads não funciona',
+          'google ads sem leads general contractor',
+          'anúncio do google ads não aparece',
+          'quality score baixo no google ads',
+          'rastreamento de conversão do google ads não funciona',
+          'google ads limitado por orçamento',
+          'cliques inválidos no google ads',
+          'palavras-chave negativas no google ads',
+          'diagnóstico de ppc para contractors',
+        ],
+        featuredImageAlt: 'Checklist de diagnóstico para uma campanha de Google Ads de contractor sem leads',
+        publishedDate: '2026-11-25',
+        updatedDate: '2026-11-25',
+        readingTime: 15,
+        canonicalUrl: `${SITE_URL}/br/blog/por-que-o-google-ads-nao-esta-gerando-leads-para-contractors`,
+        faq: [
+          {
+            question: 'Por que o Google Ads mostraria clique e gastaria orçamento, mas geraria zero leads?',
+            answer: 'Clique e lead ficam em camadas diferentes, cada uma com um jeito próprio de falhar: se o anúncio está de fato elegível para as buscas que ele visa, se o orçamento está limitando impressões antes mesmo de a keyword ou a página serem avaliadas, se o Quality Score está empurrando o anúncio para posições de leilão piores ou mais raras, se os cliques que chegam são inválidos ou simplesmente irrelevantes, e se o rastreamento de conversão está de fato registrando os leads que já estão acontecendo. Uma campanha que gasta o orçamento inteiro todo dia, com volume de clique razoável e zero lead registrado, quase sempre é um problema de rastreamento, não de demanda.',
+          },
+          {
+            question: 'Como sei se meu Google Ads está de fato aparecendo?',
+            answer: 'Confira a coluna de status do anúncio na conta. Segundo a Central de Ajuda do Google Ads, um anúncio marcado como Eligible "está de acordo com as políticas do Google Ads, então pode ser exibido para todos os públicos" (tradução livre), enquanto Eligible (limited) significa que o anúncio "pode ser exibido, mas não em todas as situações, por restrições de política, como uso de marca registrada ou conteúdo de jogos de azar" (tradução livre). Under review "ainda está em análise e será elegível para exibição se determinarmos que está de acordo com nossas políticas" (tradução livre), um anúncio Disapproved "não pode ser exibido porque o conteúdo ou o destino dele viola a política do Google Ads" (tradução livre), e Not eligible significa que o anúncio "não está sendo exibido porque a campanha está pausada, removida, encerrada ou pendente, ou o grupo de anúncios está pausado, removido ou incompleto" (tradução livre). Qualquer status diferente de um Eligible limpo vale investigar antes de olhar para qualquer outra coisa.',
+          },
+          {
+            question: 'Um orçamento baixo pode impedir o Google Ads de gerar leads?',
+            answer: 'Sim, mas isso aparece como menos impressão, não como lead que acontece e desaparece. A Central de Ajuda do Google Ads descreve o status de campanha "Limited by budget" como um sinal de que a campanha "está com desempenho abaixo do esperado por causa de um orçamento limitado" (tradução livre), e a correção é revisar o orçamento recomendado que o Google Ads sugere para aquela campanha. A métrica mais precisa, coberta no guia de orçamento de Google Ads, é o Search Lost IS (budget), que isola a porcentagem de leilões perdidos especificamente por gasto, diferente do Search Lost IS (rank), que aponta para um problema de lance ou relevância.',
+          },
+          {
+            question: 'O Quality Score afeta quantos leads um contractor recebe do Google Ads?',
+            answer: 'O Quality Score não cria nem bloqueia um lead diretamente, mas molda quantos leilões o anúncio de fato ganha e a que custo. A Central de Ajuda do Google Ads define a nota a partir de três componentes: taxa de cliques esperada, "a probabilidade de seu anúncio ser clicado quando exibido" (tradução livre); relevância do anúncio, "o quanto seu anúncio corresponde à intenção por trás da pesquisa do usuário" (tradução livre); e experiência da página de destino, "o quanto sua página de destino é relevante e útil para quem clica no seu anúncio" (tradução livre). Uma nota baixa em qualquer um dos três eleva o custo de competir nos mesmos leilões, o que pode tirar o contractor da faixa de preço de cliques que teriam virado lead.',
+          },
+          {
+            question: 'Cliques inválidos são o motivo da minha campanha de Google Ads não converter?',
+            answer: 'Geralmente não, justamente porque o Google já os remove. A Central de Ajuda do Google Ads define tráfego inválido como "tráfego que não representa interesse genuíno no seu negócio" (tradução livre), cobrindo cliques não humanos e cliques acidentais por posicionamento ruim do anúncio, e afirma que a atividade inválida "detectada antes do fim do mês é removida automaticamente da sua fatura e dos relatórios de campanha, então não é necessário reembolso" (tradução livre). Cliques inválidos detectados depois da fatura ainda resultam em crédito na fatura seguinte. Um contractor que vê clique mas nenhum lead está, na maioria das vezes, lidando com clique válido de público errado, que se corrige com palavra-chave negativa, e não com tráfego inválido que o Google já filtrou.',
+          },
+          {
+            question: 'Minha equipe está recebendo ligação de cliente do Google Ads, mas a conta mostra zero conversão. O que está errado?',
+            answer: 'Isso quase sempre é um problema de configuração de rastreamento, não falta de lead. A orientação da Central de Ajuda do Google Ads sobre a tag do site aponta causas específicas: a tag do Google precisa estar "na seção <head> de todas as páginas do seu site" (tradução livre), o auto-tagging precisa estar ativado para o Google conseguir "adicionar automaticamente os parâmetros GCLID e AUID à sua landing page depois de um clique no anúncio" (tradução livre), e "os cookies precisam estar disponíveis no navegador no momento em que o cliente converte" (tradução livre). Instalar "múltiplas tags do Google ou containers do Google Tag Manager... na mesma página" (tradução livre) também é apontado como fonte comum de conflito. Uma ligação feita para um número que nunca foi conectado à landing page rastreada nunca vai aparecer como conversão, por mais correto que o resto esteja instalado.',
+          },
+          {
+            question: 'A landing page pode ser o motivo de uma campanha de Google Ads não gerar leads?',
+            answer: 'Sim. A própria orientação da Central de Ajuda do Google Ads sobre otimizar anúncios e landing pages afirma que "quando alguém clica no seu anúncio, a expectativa é chegar numa página relevante para o que viu no anúncio" (tradução livre), e recomenda uma página que "corresponda de perto ao seu anúncio e às suas palavras-chave" (tradução livre). Também observa que "a facilidade de navegação é algo que os usuários valorizam ainda mais em sites mobile" (tradução livre). Um clique para um serviço específico que cai numa homepage genérica, sem menção a esse serviço e com o formulário de contato escondido bem abaixo na página, trabalha contra o anúncio em vez de a favor dele.',
+          },
+          {
+            question: 'Qual é a ordem certa para diagnosticar uma conta de Google Ads que não está gerando leads?',
+            answer: 'Comece checando se o anúncio está de fato elegível para ser exibido, porque nada depois disso importa se ele não estiver. Depois confira o Search Lost IS (budget) contra o Search Lost IS (rank) para saber se o gasto ou a competitividade do leilão é a restrição. A partir daí, revise o relatório de search terms em busca de pesquisas irrelevantes que precisam de palavra-chave negativa, confirme que a tag de conversão está de fato disparando com o Tag Assistant, não só instalada, e só então olhe para a landing page em si. Checar orçamento ou a landing page antes de confirmar que o anúncio está aparecendo e que a tag está rastreando é o jeito mais comum de o contractor perder tempo perseguindo a correção errada.',
           },
         ],
       },
